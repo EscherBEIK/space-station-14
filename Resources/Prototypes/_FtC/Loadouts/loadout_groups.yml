@@ -1,0 +1,46 @@
+- type: loadoutGroup
+  id: SeniorOfficerJumpsuit
+  name: loadout-group-senior-officer-jumpsuit
+  loadouts:
+  - JumpsuitSeniorOfficer
+  - JumpskirtSeniorOfficer
+
+- type: loadoutGroup
+  id: SeniorResearcherJumpsuit
+  name: loadout-group-senior-researcher-jumpsuit
+  loadouts:
+  - JumpsuitSeniorResearcher
+  - JumpskirtSeniorResearcher
+
+- type: loadoutGroup
+  id: SeniorPhysicianJumpsuit
+  name: loadout-group-senior-physician-jumpsuit
+  loadouts:
+  - JumpsuitSeniorPhysician
+  - JumpskirtSeniorPhysician
+
+- type: loadoutGroup
+  id: SeniorEngineerJumpsuit
+  name: loadout-group-senior-engineer-jumpsuit
+  loadouts:
+  - JumpsuitSeniorEngineer
+  - JumpskirtSeniorEngineer
+  
+#FtC-NTR
+- type: loadoutGroup
+  id: NanoTrasenRepresentativeJumpsuit
+  name: loadout-group-nanotrasenrepresentative-jumpsuit
+  minLimit: 1
+  loadouts:
+  - NanoTrasenRepresentativeJumpsuit
+  - NanoTrasenRepresentativeJumpskirt
+  - NanoTrasenRepresentativeJumpsuitFormal
+
+- type: loadoutGroup
+  id: NanoTrasenRepresentativeOuterClothing
+  name: loadout-group-nanotrasenrepresentative-outerclothing
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - NanoTrasenRepresentativeCoat
+  - NanoTrasenRepresentativeCoatOpen

@@ -18,6 +18,7 @@
     - !type:AgeRequirement
       requiredAge: 21
   weight: 10
+  displayWeight: 70 #FtC-Edit
   startingGear: ChiefEngineerGear
   icon: "JobIconChiefEngineer"
   requireAdminNotify: true

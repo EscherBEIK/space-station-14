@@ -1,0 +1,107 @@
+- type: emoteSounds
+  id: MaleFelinid
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: FelinidScreams
+    Laugh:
+      collection: MaleLaugh
+    Sneeze:
+      collection: MaleSneezes
+    Cough:
+      collection: MaleCoughs
+    Crying:
+      collection: MaleCry
+    Whistle:
+      collection: Whistles
+    Mew:
+      collection: FelinidMews
+    Meow:
+      collection: FelinidMeows
+    Hisses:
+      collection: FelinidHisses
+    Purr:
+      collection: FelinidPurrs
+    Growl:
+      collection: FelinidGrowls
+
+- type: emoteSounds
+  id: FemaleFelinid
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: FelinidScreams
+    Laugh:
+      collection: FemaleLaugh
+    Sneeze:
+      collection: FemaleSneezes
+    Cough:
+      collection: FemaleCoughs
+    Crying:
+      collection: FemaleCry
+    Whistle:
+      collection: Whistles
+    Mew:
+      collection: FelinidMews
+    Meow:
+      collection: FelinidMeows
+    Hisses:
+      collection: FelinidHisses
+    Purr:
+      collection: FelinidPurrs
+    Growl:
+      collection: FelinidGrowls
+
+- type: emoteSounds
+  id: MaleVulpkanin
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: VulpkaninScreams
+    Laugh:
+      collection: MaleLaugh
+    Sneeze:
+      collection: MaleSneezes
+    Cough:
+      collection: MaleCoughs
+    Crying:
+      collection: MaleCry
+    Whistle:
+      collection: Whistles
+    Sigh:
+      collection: MaleSigh
+    Growl:
+      collection: VulpkaninGrowls
+    Howl:
+      collection: VulpkaninHowls
+    Bark:
+      collection: VulpkaninBarks
+
+- type: emoteSounds
+  id: FemaleVulpkanin
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: VulpkaninScreams
+    Laugh:
+      collection: FemaleLaugh
+    Sneeze:
+      collection: FemaleSneezes
+    Cough:
+      collection: FemaleCoughs
+    Crying:
+      collection: FemaleCry
+    Whistle:
+      collection: Whistles
+    Sigh:
+      collection: FemaleSigh
+    Growl:
+      collection: VulpkaninGrowls
+    Howl:
+      collection: VulpkaninHowls
+    Bark:
+      collection: VulpkaninBarks

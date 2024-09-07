@@ -762,6 +762,8 @@
     layers:
     - state: default
     - state: idseniorengineer
+    - type: PresetIdCard  # FtC-Senior
+      job: SeniorEngineer  # FtC-Senior
 
 - type: entity
   parent: ResearchIDCard
@@ -772,6 +774,8 @@
     layers:
     - state: default
     - state: idseniorresearcher
+    - type: PresetIdCard  # FtC-Senior
+      job: SeniorEngineer  # FtC-Senior
 
 - type: entity
   parent: MedicalIDCard
@@ -782,6 +786,8 @@
     layers:
     - state: default
     - state: idseniorphysician
+    - type: PresetIdCard  # FtC-Senior
+      job: SeniorEngineer  # FtC-Senior
 
 - type: entity
   parent: SecurityIDCard
@@ -792,6 +798,8 @@
     layers:
     - state: default
     - state: idseniorofficer
+    - type: PresetIdCard  # FtC-Senior
+      job: SeniorEngineer  # FtC-Senior
 
 - type: entity
   parent: IDCardStandard

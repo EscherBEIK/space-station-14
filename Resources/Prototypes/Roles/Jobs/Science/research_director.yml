@@ -12,6 +12,7 @@
     - !type:AgeRequirement
       requiredAge: 21
   weight: 10
+  displayWeight: 50 #FtC-Edit
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"
   requireAdminNotify: true

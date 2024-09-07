@@ -20,6 +20,7 @@
   id: DoctorGear
   equipment:
     ears: ClothingHeadsetMedical
+    id: MedicalPDA
     belt: ClothingBeltMedicalFilled
   #storage:
     #back:

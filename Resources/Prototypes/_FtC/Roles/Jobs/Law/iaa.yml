@@ -1,0 +1,33 @@
+- type: job
+  id: IAA
+  name: job-name-iaa
+  description: job-description-iaa
+  playTimeTracker: JobIAA
+  requirements:
+  - !type:DepartmentTimeRequirement
+    department: Command
+    time: 36000 # 10h FtC-Edit
+  - !type:DepartmentTimeRequirement
+    department: Security
+    time: 18000 # 5h FtC-Edit
+  startingGear: IAAGear
+  icon: "JobIconIAA"
+  supervisors: job-supervisors-centcom
+  canBeAntag: true
+  displayWeight: 40
+  access:
+  - Service
+  - Brig
+  - Maintenance
+  - External
+  - Lawyer
+  
+- type: startingGear
+  id: IAAGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    id: IAAPDA
+    eyes: ClothingEyesGlassesSunglasses
+    ears: ClothingHeadsetSecurity
+  inhand:
+    - BriefcaseIAAFilled

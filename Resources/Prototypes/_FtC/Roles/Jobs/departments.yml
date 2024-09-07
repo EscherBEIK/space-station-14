@@ -1,0 +1,18 @@
+- type: department
+  id: Law
+  name: department-Law
+  description: department-Law-description
+  color: "#FF5297"
+  weight: 80
+  roles:
+    - IAA
+    - Lawyer
+
+- type: department
+  id: CCRepresentatives
+  name: department-CCRepresentatives
+  description: department-CCRepresentatives-description
+  color: "#000000"
+  weight: 70
+  roles:
+    - NanoTrasenRepresentative

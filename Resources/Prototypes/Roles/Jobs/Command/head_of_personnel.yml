@@ -19,6 +19,7 @@
     - !type:AgeRequirement
       requiredAge: 21
   weight: 20
+  displayWeight: 90 #FtC-Edit
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"
   requireAdminNotify: true

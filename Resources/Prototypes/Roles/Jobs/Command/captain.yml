@@ -19,6 +19,7 @@
     - !type:AgeRequirement
       requiredAge: 21
   weight: 20
+  displayWeight: 100 #FtC-Edit
   startingGear: CaptainGear
   icon: "JobIconCaptain"
   requireAdminNotify: true

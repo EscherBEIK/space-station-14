@@ -18,6 +18,7 @@
     - !type:AgeRequirement
       requiredAge: 21
   weight: 10
+  displayWeight: 40 #FtC-Edit
   startingGear: QuartermasterGear
   icon: "JobIconQuarterMaster"
   supervisors: job-supervisors-captain

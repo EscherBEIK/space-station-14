@@ -20,6 +20,7 @@
     - !type:AgeRequirement
       requiredAge: 21
   weight: 10
+  displayWeight: 60 #FtC-Edit
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"
   requireAdminNotify: true

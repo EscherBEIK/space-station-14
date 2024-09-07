@@ -58,6 +58,7 @@
   roles:
   - AtmosphericTechnician
   - ChiefEngineer
+  - SeniorEngineer #FtC-Senior
   - StationEngineer
   - TechnicalAssistant
 
@@ -69,6 +70,7 @@
   roles:
   - Chemist
   - ChiefMedicalOfficer
+  - SeniorPhysician #FtC-senior
   - MedicalDoctor
   - MedicalIntern
   - Psychologist
@@ -82,6 +84,7 @@
   weight: 20
   roles:
   - HeadOfSecurity
+  - SeniorOfficer #FtC-Senior
   - SecurityCadet
   - SecurityOfficer
   - Detective
@@ -94,6 +97,7 @@
   color: "#D381C9"
   roles:
   - ResearchDirector
+  - SeniorResearcher
   - Scientist
   - ResearchAssistant
 

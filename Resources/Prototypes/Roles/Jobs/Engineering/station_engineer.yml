@@ -21,6 +21,7 @@
   id: StationEngineerGear
   equipment:
     eyes: ClothingEyesGlassesMeson
+    id: EngineerPDA
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
   #storage:

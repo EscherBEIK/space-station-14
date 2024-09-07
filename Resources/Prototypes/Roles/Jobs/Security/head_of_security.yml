@@ -18,6 +18,7 @@
     - !type:AgeRequirement
       requiredAge: 21
   weight: 10
+  displayWeight: 80 #FtC-Edit
   startingGear: HoSGear
   icon: "JobIconHeadOfSecurity"
   requireAdminNotify: true

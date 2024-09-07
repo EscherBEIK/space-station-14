@@ -1,0 +1,15 @@
+- type: gameMapPool
+  id: FtCMapPool #FtC-Edit
+  maps:
+  - BagelFtC
+  - BoxFtC
+  - CogFtC
+  - CoreFtC
+  - FlandFtC
+  - MarathonFtC
+  - MetaFtC
+  - OasisFtC
+  - OmegaFtC
+  - PackedFtC
+  - ReachFtC
+  - TrainFtC

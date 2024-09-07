@@ -18,6 +18,8 @@
     - Human
     - Moth
     - Reptilian
+    - Vulpkanin #FtC-Species
+    - Tajaran #FtC-Species
 
 - type: loadoutEffectGroup
   id: EffectSpeciesVox
