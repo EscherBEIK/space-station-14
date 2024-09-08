@@ -20,6 +20,7 @@
   - Boxer
   - Chaplain
   - Chef
+  - ChefCook
   - Clown
   - HeadOfPersonnel
   - Janitor
@@ -89,6 +90,7 @@
   - SecurityOfficer
   - Detective
   - Warden
+  - Brigmedic #FtC-Brigmedic
 
 - type: department
   id: Science

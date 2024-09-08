@@ -147,3 +147,10 @@
 
 - type: playTimeTracker
   id: JobZookeeper
+
+- type: playTimeTracker
+  id: JobBrigmedic
+  
+- type: playTimeTracker
+  id: JobChefCook
+  

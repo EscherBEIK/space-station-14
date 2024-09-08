@@ -26,10 +26,10 @@
     RArm: MobReptilianRArm
     LHand: MobReptilianLHand
     RHand: MobReptilianRHand
-    LLeg: MobReptilianLLeg
-    RLeg: MobReptilianRLeg
-    LFoot: MobReptilianLFoot
-    RFoot: MobReptilianRFoot
+    LLeg: MobReptilianLLegDigi # _FtC-Digitigrade
+    RLeg: MobReptilianRLegDigi # _FtC-Digitigrade
+    LFoot: MobReptilianLFootDigi # _FtC-Digitigrade
+    RFoot: MobReptilianRFootDigi # _FtC-Digitigrade
 
 - type: markingPoints
   id: MobReptilianMarkingLimits

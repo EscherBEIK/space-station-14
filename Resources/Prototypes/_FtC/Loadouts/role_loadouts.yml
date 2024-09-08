@@ -4,7 +4,6 @@
   - SeniorOfficerJumpsuit
   - SecurityBackpack
   - SecurityBelt
-  - SecurityTrinkets
   - SecurityOuterClothing
   - SecurityShoes
   - SurvivalSecurity
@@ -63,4 +62,28 @@
   - CommonBackpack
   - Trinkets
   - Survival
+  - GroupSpeciesBreathTool
+
+#FtC-Brigmedic
+- type: roleLoadout
+  id: JobBrigmedic
+  groups:
+  - BrigmedicJumpsuit
+  - BrigmedicBackpack
+  - SurvivalSecurity
+  - Trinkets
+  - GroupSpeciesBreathTool
+#FtC-ChefCook
+- type: roleLoadout
+  id: JobChefCook
+  groups:
+  - GroupTankHarness
+  - ChefHead
+  - ChefMask
+  - ChefJumpsuit
+  - CommonBackpack
+  - ChefOuterClothing
+  - Glasses
+  - Survival
+  - Trinkets
   - GroupSpeciesBreathTool

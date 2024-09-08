@@ -69,6 +69,7 @@
             #silicon
             StationAi: [ 1, 1 ]
             Borg: [ 4, 4 ]
-            # Ftc-NTR
+            # FtC-NTR
             NanoTrasenRepresentative: [ 1, 1 ]
-            
+            # FtC-Brigmedic
+            Brigmedic: [ 1, 1 ]

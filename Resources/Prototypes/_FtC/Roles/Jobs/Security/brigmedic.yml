@@ -1,0 +1,35 @@
+- type: job
+  id: Brigmedic
+  name: job-name-brigmedic
+  description: job-description-brigmedic
+  playTimeTracker: JobBrigmedic
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 18000
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 18000
+  startingGear: BrigmedicGear
+  icon: "JobIconBrigmedic"
+  supervisors: job-supervisors-hos
+  canBeAntag: true
+  displayWeight: 15
+  access:
+  - Medical
+  - Security
+  - Brig
+  - Maintenance
+  - External
+
+- type: startingGear
+  id: BrigmedicGear
+  equipment:
+    outerClothing: ClothingOuterCoatAMG
+    shoes: ClothingShoesColorRed
+    gloves: ClothingHandsGlovesLatex
+    eyes: ClothingEyesHudMedSec
+    head: ClothingHeadHatBeretBrigmedic
+    id: BrigmedicPDA
+    ears: ClothingHeadsetBrigmedic
+    belt: ClothingBeltMedicalFilled

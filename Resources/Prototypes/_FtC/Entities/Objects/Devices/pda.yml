@@ -31,3 +31,17 @@
     borderColor: "#7C5D00"
   - type: Icon
     state: pda-captain
+#FtC-ChefCook
+- type: entity
+  parent: BasePDA
+  id: ChefCookPDA
+  name: Chef Cook PDA
+  description: "Chef, why do you have to peel the labels off the bananas?"
+  components:
+    - type: Pda
+      id: ChefCookIDCard
+      state: pda-cook
+    - type: PdaBorderColor
+      borderColor: "#FFFFFF"
+    - type: Icon
+      state: pda-cook

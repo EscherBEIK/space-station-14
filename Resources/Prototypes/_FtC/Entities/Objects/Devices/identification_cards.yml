@@ -21,3 +21,16 @@
     - state: ert_commander
   - type: PresetIdCard
     job: NanoTrasenRepresentative
+
+#FtC-Chefcook
+- type: entity
+  parent: IDCardStandard
+  id: ChefCookIDCard
+  name: chef cook ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idchefcook
+  - type: PresetIdCard
+    job: ChefCook
