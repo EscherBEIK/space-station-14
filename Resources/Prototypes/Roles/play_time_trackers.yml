@@ -150,7 +150,3 @@
 
 - type: playTimeTracker
   id: JobBrigmedic
-  
-- type: playTimeTracker
-  id: JobChefCook
-  
