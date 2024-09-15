@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "license": "CLA",
+    "copyright": "© FtC",
+    "size": {
+        "x": 8,
+        "y": 8
+    },
+    "states": [
+        {
+            "name": "BlueShield"
+        }
+    ]
+}

@@ -31,3 +31,30 @@
     borderColor: "#7C5D00"
   - type: Icon
     state: pda-captain
+
+# FtC-BlueShield
+
+- type: entity
+  parent: BasePDA
+  id: BlueShieldPDA
+  name: КПК офицера «синий щит»
+  description: На задней части нацарапано послание о том, что этот ПДА принадлежит Дельте Лайн.
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Devices/pda.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
+  - type: Pda
+    id: BlueShieldIDCard
+    state: pda-blueshield
+  - type: Icon
+    sprite: _FtC/Objects/Devices/pda.rsi
+    state: pda-blueshield

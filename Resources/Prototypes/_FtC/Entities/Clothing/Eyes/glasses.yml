@@ -1,0 +1,25 @@
+﻿- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesBlueShield
+  name: очки офицера «синий щит»
+  description: Инновационные очки синего оттенка с большим количеством незаявленных улучшений. Хочется верить, что это не перекрашенные солнцезащитные очки службы безопасности. 
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Eyes/Glasses/blueshield_sunglasses.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Eyes/Glasses/blueshield_sunglasses.rsi
+  - type: FlashImmunity
+  - type: ShowJobIcons
+#  - type: ShowMindShieldIcons
+  - type: ShowCriminalRecordIcons
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+  - type: ShowHealthIcons
+    damageContainers:
+    - Biological
+  - type: Tag
+    tags:
+    - HudMedical
+  - type: EyeProtection
+    protectionTime: 5

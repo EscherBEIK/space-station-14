@@ -1,7 +1,7 @@
 ent-ClothingBeltSyndieWebbing = РПС Синдиката
     .desc = Довольно вместительное хранилище для боеприпасов.
 ent-ClothingBeltBlueShieldWebbing = рпс офицера «синий щит»
-    .desc = Голубой?!
+    .desc = Самое передовое и высокотехнологическое средство для хранения военного обмундирования. По крайней мере так заявляют его производители.
 ent-ClothingBeltPrisonGuardianFilled = { ent-ClothingBeltSecurity }
     .suffix = Заполнен
     .desc = { ent-ClothingBeltSecurity.desc }

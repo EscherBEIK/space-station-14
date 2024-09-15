@@ -1,7 +1,7 @@
 ent-ClothingShoesBootsJackSec = { ent-ClothingShoesBootsJack }
     .desc = { ent-ClothingShoesBootsJack.desc }
 ent-ClothingShoesBootsBlueShield = ботинки офицера «синий щит»
-    .desc = Синий или голубой, вот в чём вопрос.
+    .desc = До сих пор хранят у себя на подошве грязнь тренировочного центра. По крайней мере так заявлено на упаковке.
 ent-ClothingShoesBootsPrisonerGrey = ботинки заключенного
     .desc = Почему не оранжевые?
 ent-ClothingShoesUSSPBlack = кожаные ботинки СССП

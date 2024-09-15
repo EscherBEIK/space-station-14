@@ -19,3 +19,14 @@
     sprite: _FtC/Clothing/Uniforms/Jumpsuit/ntrepformal.rsi
   - type: Clothing
     sprite: _FtC/Clothing/Uniforms/Jumpsuit/ntrepformal.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBlueShield
+  name: комбинезон офицера «синий щит»
+  description: До сих пор хранит на себе следы от кубиков пресса прошлого владельца. И, возможно, немого шерсти. Вы не до конца уверены в её происхождении.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Uniforms/Jumpsuit/blueshield.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Uniforms/Jumpsuit/blueshield.rsi

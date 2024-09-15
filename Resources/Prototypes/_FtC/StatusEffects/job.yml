@@ -4,3 +4,11 @@
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: IAA
+
+#FtC-BlueShield
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconBlueShield
+  icon:
+    sprite: /Textures/_FtC/Interface/Misc/job_icons.rsi
+    state: BlueShield

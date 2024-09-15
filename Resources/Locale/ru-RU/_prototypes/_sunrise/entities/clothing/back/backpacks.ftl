@@ -7,6 +7,6 @@ ent-ClothingDeathSquadronBackpack = рюкзак эскадрона смерти
 ent-ClothingBackpackCE = рюкзак старшего инженера
     .desc = Технически продвинутый рюкзак.
 ent-ClothingBackpackBlueShield = рюкзак офицера «синий щит»
-    .desc = На стиле.
+    .desc = Стильный рюкзак офицера «синий щит». Имеет повышенную мобильность и характерный синий цвет ткани.
 ent-ClothingBackpackPrisonGuard = рюкзак сотрудника кт
     .desc = На стиле.

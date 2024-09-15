@@ -1,0 +1,51 @@
+- type: job
+  id: BlueShield
+  name: job-name-blueshield
+  description: job-description-blueshield
+  playTimeTracker: JobBlueShield
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 31000 # 10 hrs
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 31000 # 10 hrs
+  startingGear: BlueShieldGear
+  icon: JobIconBlueShield
+  supervisors: job-supervisors-ntrep
+  canBeAntag: true
+  access:
+    - Command
+    - Bar
+    - Service
+    - Maintenance
+    - Janitor
+    - Theatre
+    - Kitchen
+    - Chapel
+    - Hydroponics
+    - External
+    - Chemistry
+    - Engineering
+    - Research
+    - Detective
+    - Salvage
+    - Security
+    - Brig
+    - Cargo
+    - Atmospherics
+    - Cargo
+    - Medical
+    - BlueShield
+
+- type: startingGear
+  id: BlueShieldGear
+  equipment:
+    shoes: ClothingShoesBootsBlueShieldFilled
+    eyes: ClothingEyesGlassesBlueShield
+    head: ClothingHeadHatBeretBlueShield
+    outerClothing: ClothingOuterArmorBlueShield
+    id: BlueShieldPDA
+    ears: ClothingHeadsetAltCommand
+    belt: ClothingBeltBlueShieldWebbingFilled
+    gloves: ClothingHandsGlovesCombat

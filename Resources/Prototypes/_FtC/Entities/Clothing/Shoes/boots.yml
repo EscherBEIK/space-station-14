@@ -1,0 +1,10 @@
+﻿- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: ClothingShoesBootsBlueShield
+  name: ботинки офицера «синий щит»
+  description: До сих пор хранят у себя на подошве грязнь тренировочного центра. По крайней мере так заявлено на упаковке.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Shoes/Boots/blueshield.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Shoes/Boots/blueshield.rsi

@@ -8,3 +8,14 @@
     sprite: _FtC/Clothing/Uniforms/Jumpskirt/ntrep.rsi
   - type: Clothing
     sprite: _FtC/Clothing/Uniforms/Jumpskirt/ntrep.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtBlueShield
+  name: юбка-комбинезон офицера «синий щит»
+  description: Стальная юбка для стальных леди. Настолько прочная, что её невозможно перешить.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Uniforms/Jumpskirt/blueshield.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Uniforms/Jumpskirt/blueshield.rsi

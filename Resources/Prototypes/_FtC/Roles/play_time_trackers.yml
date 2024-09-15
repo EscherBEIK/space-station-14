@@ -19,4 +19,8 @@
 #FtC-NTR
 - type: playTimeTracker
   id: JobNanoTrasenRepresentative
-  
+
+#FtC-BlueShield
+- type: playTimeTracker
+  id: JobBlueShield
+

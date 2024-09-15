@@ -8,3 +8,14 @@
     sprite: _FtC/Clothing/Head/Hats/ntrep.rsi
   - type: Clothing
     sprite: _FtC/Clothing/Head/Hats/ntrep.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretBlueShield
+  name: берет офицера «синий щит»
+  description: Стильный синый берет с эмблемой офицера «синий щит». Он точно никогда не был красного цвета. Честное слово.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Head/Hats/blueshield.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Head/Hats/blueshield.rsi

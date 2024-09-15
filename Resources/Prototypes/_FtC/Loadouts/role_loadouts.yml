@@ -73,17 +73,13 @@
   - SurvivalSecurity
   - Trinkets
   - GroupSpeciesBreathTool
-#FtC-ChefCook
+
+#FtC-BlueShield
 - type: roleLoadout
-  id: JobChefCook
+  id: JobBlueShield
   groups:
-  - GroupTankHarness
-  - ChefHead
-  - ChefMask
-  - ChefJumpsuit
-  - CommonBackpack
-  - ChefOuterClothing
-  - Glasses
-  - Survival
+  - BlueShieldJumpsuit
+  - BlueShieldBackpack
   - Trinkets
+  - Survival
   - GroupSpeciesBreathTool

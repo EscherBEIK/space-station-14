@@ -22,3 +22,18 @@
   - type: PresetIdCard
     job: NanoTrasenRepresentative
 
+- type: entity
+  parent: IDCardStandard
+  id: BlueShieldIDCard
+  name: ID карта офицера «синий щит»
+  description: Карта, необходимая для доступа в различные области станции.
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Misc/id_cards.rsi
+    layers:
+    - state: silver
+    - state: idblueshield
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: BlueShield

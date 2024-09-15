@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: ClothingOuterArmorBlueShield
+  name: бронежилет офицера «синий щит»
+  description: Вы точно никогда не видели его на распродаже бракованного имущества. 
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/OuterClothing/Armor/blueshield.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/OuterClothing/Armor/blueshield.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.4 
+  - type: ExplosionResistance
+    damageCoefficient: 0.80
+  - type: Item
+    size: Normal
