@@ -16,8 +16,6 @@
     - !type:DepartmentTimeRequirement
       department: Command
       time: 36000 # 10 hours
-    - !type:AgeRequirement
-      requiredAge: 21
   weight: 20
   displayWeight: 90 #FtC-Edit
   startingGear: HoPGear

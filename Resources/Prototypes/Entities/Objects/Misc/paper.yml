@@ -35,9 +35,7 @@
   - type: PaperVisuals
   - type: Flammable
     fireSpread: true
-    canResistFire: false
     alwaysCombustible: true
-    canExtinguish: false # Mwahaha! Let the world burn because of one piece of paper!
     damage:
       types:
         Heat: 1
@@ -63,6 +61,9 @@
     solution: food
     delay: 7
     forceFeedDelay: 7
+  - type: FlavorProfile
+    flavors:
+    - paper
   - type: BadFood
   - type: SolutionContainerManager
     solutions:
