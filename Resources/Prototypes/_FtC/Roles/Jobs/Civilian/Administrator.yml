@@ -1,0 +1,33 @@
+- type: job
+  id: ServiceAdministrator
+  name: job-name-serviceadministrator
+  description: job-description-serviceadministrator
+  playTimeTracker: JobServiceAdministrator
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 36000
+  startingGear: ServiceAdministratorGear
+  icon: JobIconServiceAdministrator
+  supervisors: job-supervisors-hop
+  access:
+  - Service
+  - Maintenance
+  - Bar
+  - Janitor
+  - Theatre
+  - ServiceAdministrator
+  extendedAccess:
+  - Kitchen
+  - Hydroponics
+
+- type: startingGear
+  id: ServiceAdministratorGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    gloves: ClothingHandsGlovesColorWhite
+    id: ServiceAdministratorPDA
+    ears: ClothingHeadsetService
+  #storage:
+    #back:
+    #- Stuff

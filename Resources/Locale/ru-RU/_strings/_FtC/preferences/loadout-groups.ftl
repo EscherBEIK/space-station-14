@@ -28,3 +28,4 @@ loadout-group-prisoner-jumpsuit = Заключенный, комбинезон
 loadout-group-nanotrasenrepresentative-outerclothing = Представитель NT, верхняя одежда
 loadout-group-nanotrasenrepresentative-jumpsuit = Представитель NT, комбинезон
 loadout-group-pepper-spray = Перцовый баллончик
+loadout-group-serviceadministrator-jumpsuit = Администратор барного зала, комбинезон

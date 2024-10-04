@@ -31,7 +31,9 @@
   - Reporter
   - Visitor
   - Zookeeper
+  - ServiceAdministrator #FtC-SeviceAdministrator
   - ServiceWorker
+  
 
 - type: department
   id: CentralCommand

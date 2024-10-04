@@ -76,3 +76,10 @@
   loadouts:
   - BlueShieldJumpsuit
   - BlueShieldJumpskirt
+
+- type: loadoutGroup
+  id: ServiceAdministratorJumpsuit
+  name: loadout-group-serviceadministrator-jumpsuit
+  loadouts:
+  - BalterJumpsuit
+  

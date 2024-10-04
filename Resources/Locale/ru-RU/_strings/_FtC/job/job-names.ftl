@@ -27,6 +27,7 @@ job-name-peace-borg = миротворец
 job-name-clown-borg = клоун киборг
 job-name-barber = Парихмахер
 job-name-chefcook = шеф-повар
+job-name-serviceadministrator = администратор барного зала
 # Перевод трекеров времени
 JobCentCommOfficial = представитель Центком
 JobMagistrat = магистрат
@@ -55,3 +56,4 @@ JobSecurityCombatBorg = боевой киборг СБ
 JobPeaceBorg = миротворец
 JobClownBorg = клоун киборг
 JobChefCook = шеф-повар
+JobServiceAdministrator = администратор барного зала

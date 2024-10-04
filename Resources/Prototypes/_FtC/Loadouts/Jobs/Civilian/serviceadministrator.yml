@@ -1,0 +1,4 @@
+- type: loadout
+  id: BalterJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBalter

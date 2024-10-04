@@ -30,3 +30,14 @@
     sprite: _FtC/Clothing/Uniforms/Jumpsuit/blueshield.rsi
   - type: Clothing
     sprite: _FtC/Clothing/Uniforms/Jumpsuit/blueshield.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBalter
+  name: Костюм дворецкого
+  description: Что пожелаете, Ваша Светлость?
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Uniforms/Jumpsuit/batler.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Uniforms/Jumpsuit/batler.rsi

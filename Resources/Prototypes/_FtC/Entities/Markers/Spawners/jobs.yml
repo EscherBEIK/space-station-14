@@ -74,3 +74,15 @@
       - state: green
       - state: blueshield
       - state: jobicon
+
+- type: entity
+  id: SpawnPointServiceAdministrator
+  parent: SpawnPointJobBase
+  name: ServiceAdministrator
+  components:
+  - type: SpawnPoint
+    job_id: ServiceAdministrator # FtC-ServiceAdministrator
+  - type: Sprite
+    layers:
+      - state: green
+      - state: bartender

@@ -25,3 +25,29 @@
     - type: AccessReader
       access: [["BlueShield"]]
 
+- type: entity
+  id: LockerServiceAdministrator
+  parent: LockerBaseSecure
+  name: шкаф администратора барного зала
+  components:
+    - type: Appearance
+    - type: Sprite
+      sprite: _FtC/Structures/Storage/closet.rsi
+      noRot: true
+      layers:
+      - state: generic
+        map: ["enum.StorageVisualLayers.Base"]
+      - state: generic_door
+        map: ["enum.StorageVisualLayers.Door"]
+      - state: locked
+        map: ["enum.LockVisualLayers.Lock"]
+        shader: unshaded
+      - state: welded
+        visible: false
+        map: ["enum.WeldableLayers.BaseWelded"]
+    - type: EntityStorageVisuals
+      stateBaseClosed: sasecure
+      stateDoorOpen: sasecure_open
+      stateDoorClosed: sasecure_door
+    - type: AccessReader
+      access: [["ServiceAdministrator"]]

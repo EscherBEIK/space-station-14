@@ -39,6 +39,15 @@
         },
         {
             "name": "generic_icon"
-        }
+        },
+		{
+			"name": "sasecure"
+		},
+		{
+			"name": "sasecure_door"
+		},
+		{
+			"name": "sasecure_open"
+		}
     ]
 }

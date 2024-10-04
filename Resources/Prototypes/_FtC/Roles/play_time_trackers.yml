@@ -24,3 +24,7 @@
 - type: playTimeTracker
   id: JobBlueShield
 
+#FtC-ServiceAdministrator
+- type: playTimeTracker
+  id: JobServiceAdministrator
+  

@@ -37,3 +37,18 @@
     heldPrefix: silver
   - type: PresetIdCard
     job: BlueShield
+
+- type: entity
+  parent: IDCardStandard
+  id: ServiceAdministratorIDCard
+  name: ID карта администратора барного зала
+  description: Карта, необходимая для доступа в различные области станции.
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Misc/id_cards.rsi
+    layers:
+    - state: default
+    - state: idserviceadministrator
+  - type: Item
+  - type: PresetIdCard
+    job: ServiceAdministrator

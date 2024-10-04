@@ -83,3 +83,14 @@
   - Trinkets
   - Survival
   - GroupSpeciesBreathTool
+
+#FtC-Serviceadministrator
+- type: roleLoadout
+  id: JobServiceAdministrator
+  groups:
+  - GroupTankHarness
+  - CommonBackpack
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+  - ServiceAdministratorJumpsuit

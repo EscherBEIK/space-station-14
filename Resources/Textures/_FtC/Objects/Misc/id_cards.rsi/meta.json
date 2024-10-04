@@ -20,6 +20,18 @@
         },
         {
             "name": "idblueshield"
+        },
+        {
+            "name": "default-inhand-left"
+        },
+        {
+            "name": "default-inhand-right"
+        },
+        {
+            "name": "default"
+        },
+        {
+            "name": "idserviceadministrator"
         }
     ]
 }
