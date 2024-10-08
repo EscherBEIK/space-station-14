@@ -4,7 +4,7 @@ using Robust.Client.Graphics;
 using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 
-namespace Content.Client.Nyanotrasen.Overlays;
+namespace Content.Client._FtC.Overlays;
 
 public sealed partial class DogVisionSystem : EntitySystem
 {
