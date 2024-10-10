@@ -8,3 +8,5 @@ ent-ClothingBackpackSatchelPrisonGuard = сумка сотрудника кт
     .desc = На стиле.
 ent-ClothingBackpackSatchelHoS = сумка главы службы безопасности
     .desc = Стильная чёрная кожаная сумка.
+ent-ClothingBackpackSatchelCaptainParade = парадная сумка капитана
+    .desc = Белая сумка, изготавливаемая специально для парадных выходов офицеров Nanotrasen. Шикарна.

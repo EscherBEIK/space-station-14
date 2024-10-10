@@ -6,3 +6,12 @@
   components:
     - type: Sprite
       sprite: _FtC/Clothing/Back/Backpacks/blueshield.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackCaptainParade
+  name: parade captain backpack
+  description: White captain backpack. Parade.
+  components:
+    - type: Sprite
+      sprite: _FtC/Clothing/Back/Backpacks/captainparade.rsi

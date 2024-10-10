@@ -1,0 +1,15 @@
+- type: entity
+  parent: [ClothingHandsBase, BaseCommandContraband]
+  id: ClothingHandsGlovesCaptainParade
+  name: Парадные перчатки капитана
+  description: Роскошные королевские перчатки для особых выходов. Достойны даже самых важных приёмов.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Hands/Gloves/captainparade.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Hands/Gloves/captainparade.rsi
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-durathread
+    fiberColor: fibers-regal-blue
+  - type: FingerprintMask

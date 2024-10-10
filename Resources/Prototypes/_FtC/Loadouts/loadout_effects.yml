@@ -1,0 +1,10 @@
+# Parade captain clothing FtC
+
+- type: loadoutEffectGroup
+  id: WorthyCaptain
+  effects:
+    - !type:JobRequirementLoadoutEffect
+      requirement:
+        !type:RoleTimeRequirement
+        role: JobCaptain
+        time: 540000 #150 hrs

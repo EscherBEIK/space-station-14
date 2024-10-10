@@ -19,3 +19,14 @@
     sprite: _FtC/Clothing/Uniforms/Jumpskirt/blueshield.rsi
   - type: Clothing
     sprite: _FtC/Clothing/Uniforms/Jumpskirt/blueshield.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtCaptainParade
+  name: Парадное платье капитана
+  description: Парадное платье белоснежного цвета. Не даст экипажу забыть о вашем статусе.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Uniforms/Jumpskirt/captainparade.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Uniforms/Jumpskirt/captainparade.rsi

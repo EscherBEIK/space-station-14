@@ -83,3 +83,9 @@
   loadouts:
   - BalterJumpsuit
   
+- type: loadoutGroup
+  id: CaptainGloves
+  name: loadout-group-captain-gloves
+  loadouts:
+  - CaptainGloves
+  - CaptainParadeGloves

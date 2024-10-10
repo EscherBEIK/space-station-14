@@ -1,0 +1,10 @@
+- type: entity
+  parent: [ClothingNeckBase, BaseCommandContraband]
+  id: ClothingNeckMantleCaptainParade
+  name: Парадная мантия капитана
+  description: Белый цвет - символ власти на флоте. Совершенно точно поможет вам стать авторитетом для клоуна на космической станции.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Neck/mantles/captainparademantle.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Neck/mantles/captainparademantle.rsi

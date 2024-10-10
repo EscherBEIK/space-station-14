@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakCaptainParade
+  name: captain's parade cloack.
+  description: White captain cloack. Parade.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Neck/Cloaks/captainparade.rsi

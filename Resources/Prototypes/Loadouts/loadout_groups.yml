@@ -78,6 +78,7 @@
   loadouts:
   - CaptainHead
   - CaptainCap
+  - CaptainParadeCap
 
 - type: loadoutGroup
   id: CaptainJumpsuit
@@ -87,6 +88,8 @@
   - CaptainJumpskirt
   - CaptainFormalSuit
   - CaptainFormalSkirt
+  - CaptainParadeJumpskirt
+  - CaptainParadeJumpsuit
 
 - type: loadoutGroup
   id: CaptainNeck
@@ -96,6 +99,8 @@
   - CaptainCloak
   - CaptainCloakFormal
   - CaptainMantle
+  - CaptainParadeMantle
+  - CaptainParadeCloak
 
 - type: loadoutGroup
   id: CaptainBackpack
@@ -104,10 +109,14 @@
   - CaptainBackpack
   - CaptainSatchel
   - CaptainDuffel
+  - CaptainParadeBackpack
+  - CaptainParadeDuffel
+  - CaptainParadeSatchel
 
 - type: loadoutGroup
   id: CaptainOuterClothing
   name: loadout-group-captain-outerclothing
+  minLimit: 0
   loadouts:
   - CaptainOuterClothing
   - CaptainWintercoat

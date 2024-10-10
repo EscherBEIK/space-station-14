@@ -19,3 +19,15 @@
     sprite: _FtC/Clothing/Head/Hats/blueshield.rsi
   - type: Clothing
     sprite: _FtC/Clothing/Head/Hats/blueshield.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCapCaptainParade
+  name: Captain parade cap
+  description: White parade captain cap. Parade.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Head/Hats/captainparade.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Head/Hats/captainparade.rsi
+

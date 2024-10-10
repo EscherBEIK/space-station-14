@@ -1,0 +1,76 @@
+- type: loadout
+  id: CaptainGloves
+  equipment:
+    gloves: ClothingHandsGlovesCaptain
+
+- type: loadout
+  id: CaptainParadeGloves
+  equipment:
+    gloves: ClothingHandsGlovesCaptainParade
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WorthyCaptain
+
+- type: loadout
+  id: CaptainParadeMantle
+  equipment:
+    neck: ClothingNeckMantleCaptainParade
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WorthyCaptain
+
+- type: loadout
+  id: CaptainParadeJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCaptainParade
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WorthyCaptain
+    
+- type: loadout
+  id: CaptainParadeJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCaptainParade
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WorthyCaptain
+
+- type: loadout
+  id: CaptainParadeCap
+  equipment:
+    head: ClothingHeadHatCapCaptainParade
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WorthyCaptain
+
+- type: loadout
+  id: CaptainParadeDuffel
+  equipment:
+    back: ClothingBackpackDuffelCaptainParade
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WorthyCaptain
+    
+- type: loadout
+  id: CaptainParadeSatchel
+  equipment:
+    back: ClothingBackpackSatchelCaptainParade
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WorthyCaptain
+    
+- type: loadout
+  id: CaptainParadeBackpack
+  equipment:
+    back: ClothingBackpackCaptainParade
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WorthyCaptain
+    
+- type: loadout
+  id: CaptainParadeCloak
+  equipment:
+    neck: ClothingNeckCloakCaptainParade
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WorthyCaptain

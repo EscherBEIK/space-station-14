@@ -41,3 +41,14 @@
     sprite: _FtC/Clothing/Uniforms/Jumpsuit/batler.rsi
   - type: Clothing
     sprite: _FtC/Clothing/Uniforms/Jumpsuit/batler.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCaptainParade
+  name: Parade captain jumpsuit. White.
+  description: The best of the bests.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Uniforms/Jumpsuit/captainparade.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Uniforms/Jumpsuit/captainparade.rsi
