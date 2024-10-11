@@ -1,3 +1,7 @@
 - type: accessLevel
   id: ServiceAdministrator
-  name: id-card-access-level-serviceadministrator
+  name: администратор сервиса
+
+- type: accessLevel
+  id: ChefCook
+  name: шеф-повар

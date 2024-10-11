@@ -86,3 +86,15 @@
     layers:
       - state: green
       - state: bartender
+      
+- type: entity
+  id: SpawnPointChefCook
+  parent: SpawnPointJobBase
+  name: ChefCook
+  components:
+  - type: SpawnPoint
+    job_id: ChefCook # FtC-ChefCook
+  - type: Sprite
+    layers:
+      - state: green
+      - state: chef

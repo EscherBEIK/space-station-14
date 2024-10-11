@@ -17,3 +17,6 @@ loadout-group-nanotrasenrepresentative-outerclothing = Представител�
 loadout-group-nanotrasenrepresentative-jumpsuit = Представитель NT, комбинезон
 loadout-group-serviceadministrator-jumpsuit = Администратор барного зала, комбинезон
 loadout-group-captain-gloves = Капитан, перчатки
+loadout-group-chefcook-hat = Шеф-повар, колпак
+loadout-group-chefcook-jumpsuit = Шеф-повар, комбинезон
+loadout-group-chefcook-apron = Шеф-повар, жакет

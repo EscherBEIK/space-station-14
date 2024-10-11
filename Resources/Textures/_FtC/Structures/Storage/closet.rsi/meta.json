@@ -48,6 +48,15 @@
 		},
 		{
 			"name": "sasecure_open"
+		},
+		{
+			"name": "chefcooksecure"
+		},
+		{
+			"name": "chefcooksecure_door"
+		},
+		{
+			"name": "chefcooksecure_open"
 		}
     ]
 }

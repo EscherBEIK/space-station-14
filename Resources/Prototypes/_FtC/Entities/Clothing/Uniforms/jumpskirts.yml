@@ -30,3 +30,14 @@
     sprite: _FtC/Clothing/Uniforms/Jumpskirt/captainparade.rsi
   - type: Clothing
     sprite: _FtC/Clothing/Uniforms/Jumpskirt/captainparade.rsi
+    
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtChefCook
+  name: Юбка-комбинезон шеф-повара
+  description: Яркая юбка-комбинезон, идеально подходящая для кухонного тирана женского пола.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Uniforms/Jumpskirt/chefcook.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Uniforms/Jumpskirt/chefcook.rsi

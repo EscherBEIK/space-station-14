@@ -67,4 +67,8 @@
             #silicon
             StationAi: [ 1, 1 ]
             Borg: [ 2, 2 ]
+            #FtC-service
+            ServiceAdministrator: [ 1, 1 ]
+            ChefCook: [ 1, 1]
+            
          

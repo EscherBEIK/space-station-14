@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatChefCookApron
+  name: Жакет шеф-повара
+  description: Бордовый жакет для властителя кулинарии. До сих пор пахнет яйцами и слезами стажёров.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/OuterClothing/Misc/chefcook.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/OuterClothing/Misc/chefcook.rsi

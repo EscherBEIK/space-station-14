@@ -89,3 +89,23 @@
   loadouts:
   - CaptainGloves
   - CaptainParadeGloves
+
+#FtC-ChefCook
+- type: loadoutGroup
+  id: ChefCookJumpsuit
+  name: loadout-group-chefcook-jumpsuit
+  loadouts:
+  - ChefCookJumpsuit
+  - ChefCookJumpskirt
+  
+- type: loadoutGroup
+  id: ChefCookHat
+  name: loadout-group-chefcook-hat
+  loadouts:
+  - ChefCookHat
+
+- type: loadoutGroup
+  id: ChefCookApron
+  name: loadout-group-chefcook-apron
+  loadouts:
+  - ChefCookApron

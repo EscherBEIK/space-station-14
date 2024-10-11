@@ -52,3 +52,14 @@
     sprite: _FtC/Clothing/Uniforms/Jumpsuit/captainparade.rsi
   - type: Clothing
     sprite: _FtC/Clothing/Uniforms/Jumpsuit/captainparade.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitChefCook
+  name: Комбинезон шеф-повара
+  description: Пахнет тиранией. Твёрдо сшит и идеально подходит для своего владельца.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Uniforms/Jumpsuit/chefcook.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Uniforms/Jumpsuit/chefcook.rsi

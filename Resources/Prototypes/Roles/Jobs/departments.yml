@@ -32,6 +32,7 @@
   - Visitor
   - Zookeeper
   - ServiceAdministrator #FtC-SeviceAdministrator
+  - ChefCook #FtC-ChefCook
   - ServiceWorker
   
 

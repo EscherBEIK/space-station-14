@@ -7,6 +7,7 @@
     - !type:DepartmentTimeRequirement
       department: Civilian
       time: 36000
+  displayWeight: 80 #FtC-Edit
   startingGear: ServiceAdministratorGear
   icon: JobIconServiceAdministrator
   supervisors: job-supervisors-hop

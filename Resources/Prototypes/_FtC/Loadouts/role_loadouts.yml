@@ -94,3 +94,15 @@
   - Trinkets
   - GroupSpeciesBreathTool
   - ServiceAdministratorJumpsuit
+#FtC-ChefCook
+- type: roleLoadout
+  id: JobChefCook
+  groups:
+  - GroupTankHarness
+  - CommonBackpack
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+  - ChefCookHat
+  - ChefCookJumpsuit
+  - ChefCookApron

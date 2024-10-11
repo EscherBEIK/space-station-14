@@ -1,7 +1,7 @@
 {
     "version": 1,
-    "license": "CLA",
-    "copyright": "© FtC",
+    "license": "CC-BY-SA 3.0",
+    "copyright": "Kamenev for FtC",
     "size": {
         "x": 8,
         "y": 8
@@ -12,6 +12,10 @@
         },
         {
             "name": "ServiceAdministrator"
-        }
+        },
+		{
+			"name": "ChefCook"
+		}
+		
     ]
 }

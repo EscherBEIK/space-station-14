@@ -1,0 +1,33 @@
+- type: job
+  id: ChefCook
+  name: job-name-chefcook
+  description: job-description-chefcook
+  playTimeTracker: JobChefCook
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobChef
+      time: 21600 #6 hrs
+  displayWeight: 70
+  startingGear: ChefCookGear
+  icon: JobIconChefCook
+  supervisors: job-supervisors-hop
+  access:
+  - Service
+  - Maintenance
+  - Kitchen
+  - Janitor
+  - Hydroponics
+  - ChefCook
+  extendedAccess:
+  - Bar
+  - Theatre
+
+- type: startingGear
+  id: ChefCookGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    id: ChefCookPDA
+    ears: ClothingHeadsetService
+  #storage:
+    #back:
+    #- Stuff

@@ -38,3 +38,5 @@ ent-SpawnPointBarber = парикмахер
     .desc = { ent-SpawnPointJobBase.desc }
 ent-SpawnPointServiceAdministrator = Администратор барного зала
     .desc = { ent-SpawnPointJobBase.desc }
+ent-SpawnPointChefCook = Шеф-повар
+    .desc = { ent-SpawnPointJobBase.desc }

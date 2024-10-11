@@ -74,4 +74,8 @@
             # FtC-Brigmedic
             Brigmedic: [ 1, 1 ]
             # FtC-BlueShield
-            BlueShield: [ 1, 1 ]            
+            BlueShield: [ 1, 1 ]
+            #FtC-service
+            ServiceAdministrator: [ 1, 1 ]
+            ChefCook: [ 1, 1]
+                        

@@ -28,3 +28,7 @@
 - type: playTimeTracker
   id: JobServiceAdministrator
   
+#FtC-ChefCook
+- type: playTimeTracker
+  id: JobChefCook
+  

@@ -2,6 +2,7 @@
   id: LockerBlueshield
   parent: LockerBaseSecure
   name: шкаф офицера "Синий Щит"
+  description: Стандартное хранилище Nanotrasen.
   components:
     - type: Appearance
     - type: Sprite
@@ -29,6 +30,7 @@
   id: LockerServiceAdministrator
   parent: LockerBaseSecure
   name: шкаф администратора барного зала
+  description: Стандартное хранилище Nanotrasen.
   components:
     - type: Appearance
     - type: Sprite
@@ -51,3 +53,31 @@
       stateDoorClosed: sasecure_door
     - type: AccessReader
       access: [["ServiceAdministrator"]]
+
+- type: entity
+  id: LockerChefCook
+  parent: LockerBaseSecure
+  name: шкаф шеф-повара
+  description: Стандартное хранилище Nanotrasen.
+  components:
+    - type: Appearance
+    - type: Sprite
+      sprite: _FtC/Structures/Storage/closet.rsi
+      noRot: true
+      layers:
+      - state: generic
+        map: ["enum.StorageVisualLayers.Base"]
+      - state: generic_door
+        map: ["enum.StorageVisualLayers.Door"]
+      - state: locked
+        map: ["enum.LockVisualLayers.Lock"]
+        shader: unshaded
+      - state: welded
+        visible: false
+        map: ["enum.WeldableLayers.BaseWelded"]
+    - type: EntityStorageVisuals
+      stateBaseClosed: chefcooksecure
+      stateDoorOpen: chefcooksecure_open
+      stateDoorClosed: chefcooksecure_door
+    - type: AccessReader
+      access: [["ChefCook"]]

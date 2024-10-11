@@ -1,0 +1,19 @@
+- type: loadout
+  id: ChefCookApron
+  equipment:
+    outerClothing: ClothingOuterCoatChefCookApron
+
+- type: loadout
+  id: ChefCookJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitChefCook
+    
+- type: loadout
+  id: ChefCookJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtChefCook
+    
+- type: loadout
+  id: ChefCookHat
+  equipment:
+    head: ClothingHeadHatChefCook

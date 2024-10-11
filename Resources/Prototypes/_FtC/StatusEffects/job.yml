@@ -21,3 +21,11 @@
   icon:
     sprite: /Textures/_FtC/Interface/Misc/job_icons.rsi
     state: ServiceAdministrator
+
+#FtC-ServiceAdministrator
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconChefCook
+  icon:
+    sprite: /Textures/_FtC/Interface/Misc/job_icons.rsi
+    state: ChefCook

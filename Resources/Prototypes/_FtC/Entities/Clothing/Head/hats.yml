@@ -31,3 +31,14 @@
   - type: Clothing
     sprite: _FtC/Clothing/Head/Hats/captainparade.rsi
 
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatChefCook
+  name: Колпак шеф-повара
+  description: Символ вашей власти над кухней.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Head/Hats/chefcookhat.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Head/Hats/chefcookhat.rsi
+

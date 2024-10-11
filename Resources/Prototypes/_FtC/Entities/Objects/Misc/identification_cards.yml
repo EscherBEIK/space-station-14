@@ -11,3 +11,77 @@
     - state: idbrigmedic
   - type: PresetIdCard
     job: Brigmedic
+
+#FtC-IAA
+- type: entity
+  parent: IDCardStandard
+  id: IAAIDCard
+  name: internal affairs agent ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idiaa
+  - type: PresetIdCard
+    job: IAA
+
+#FtC-NTR
+- type: entity
+  parent: IDCardStandard
+  id: NanoTrasenRepresentativeIDCard
+  name: NanoTrasen Representative ID Card
+  components:
+  - type: Sprite
+    layers:
+    - state: ert_commander
+  - type: PresetIdCard
+    job: NanoTrasenRepresentative
+
+#FtC-BlueShield
+- type: entity
+  parent: IDCardStandard
+  id: BlueShieldIDCard
+  name: ID карта офицера «синий щит»
+  description: Карта, необходимая для доступа в различные области станции.
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Misc/id_cards.rsi
+    layers:
+    - state: silver
+    - state: idblueshield
+  - type: Item
+    heldPrefix: silver
+  - type: PresetIdCard
+    job: BlueShield
+
+#FtC-ServiceAdministrator
+- type: entity
+  parent: IDCardStandard
+  id: ServiceAdministratorIDCard
+  name: ID карта администратора барного зала
+  description: Карта, необходимая для доступа в различные области станции.
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Misc/id_cards.rsi
+    layers:
+    - state: default
+    - state: idserviceadministrator
+  - type: Item
+  - type: PresetIdCard
+    job: ServiceAdministrator
+
+#FtC-ChefCook
+- type: entity
+  parent: IDCardStandard
+  id: ChefCookIDCard
+  name: ID карта шеф-повара
+  description: Карта, необходимая для доступа в различные области станции.
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Misc/id_cards.rsi
+    layers:
+    - state: default
+    - state: idchefcook
+  - type: Item
+  - type: PresetIdCard
+    job: ChefCook
