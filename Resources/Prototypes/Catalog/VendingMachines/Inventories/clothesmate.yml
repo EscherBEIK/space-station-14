@@ -54,6 +54,14 @@
     ClothingUniformJumpsuitCasualRed: 2
     ClothingUniformJumpskirtCasualRed: 2
     # DO NOT ADD MORE, USE UNIFORM DYING
+    # FtC-Wraps-start
+    ClothingFootWrapsWhite: 2
+    ClothingFootWrapsHighWhite: 2
+    ClothingFootWrapsBlack: 2
+    ClothingFootWrapsHighBlack: 2
+    ClothingFootWrapsBrown: 2
+    ClothingFootWrapsHighBrown: 2
+    # FtC-Wraps-start
     ClothingShoesColorBlack: 8
     ClothingShoesColorBrown: 4
     ClothingShoesColorWhite: 3
