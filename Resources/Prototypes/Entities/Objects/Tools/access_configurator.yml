@@ -48,6 +48,10 @@
       - Security
       - Service
       - Theatre
+      - Ntrep
+      - BlueShield
+      - ServiceAdministrator
+      - ChefCook
       privilegedIdSlot:
         name: id-card-console-privileged-id
         ejectSound: /Audio/Machines/id_swipe.ogg
@@ -119,6 +123,10 @@
     - CentralCommand
     - NuclearOperative
     - SyndicateAgent
+    - Ntrep
+    - BlueShield
+    - ServiceAdministrator
+    - ChefCook
     privilegedIdSlot:
       name: id-card-console-privileged-id
       ejectSound: /Audio/Machines/id_swipe.ogg
