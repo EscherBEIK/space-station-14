@@ -1,0 +1,107 @@
+- type: entity
+  parent: AirlockCommandGlass
+  id: AirlockBlueShieldGlassLocked
+  suffix: BlueShield, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlueShield ]
+
+- type: entity
+  parent: AirlockMaint
+  id: AirlockMaintBlueShieldLocked
+  suffix: BlueShield, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlueShield ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockBlueShieldLocked
+  suffix: BlueShield, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBlueShield ]
+      
+- type: entity
+  parent: AirlockCommandGlass
+  id: AirlockNtrepGlassLocked
+  suffix: Ntrep, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNtrep ]
+
+- type: entity
+  parent: AirlockMaint
+  id: AirlockMaintNtrepLocked
+  suffix: Ntrep, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNtrep ]
+
+- type: entity
+  parent: AirlockCommand
+  id: AirlockNrepLocked
+  suffix: Ntrep, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNtrep ]
+      
+- type: entity
+  parent: AirlockGlass
+  id: AirlockServiceAdministratorGlassLocked
+  suffix: ServiceAdministrator, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsServiceAdministrator ]
+
+- type: entity
+  parent: AirlockMaint
+  id: AirlockMaintServiceAdministratorLocked
+  suffix: ServiceAdministrator, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsServiceAdministrator ]
+
+- type: entity
+  parent: Airlock
+  id: AirlockServiceAdministratorLocked
+  suffix: ServiceAdministrator, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsServiceAdministrator ]
+      
+- type: entity
+  parent: AirlockGlass
+  id: AirlockChefCookGlassLocked
+  suffix: ChefCook, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChefCook ]
+
+- type: entity
+  parent: AirlockMaint
+  id: AirlockMaintChefCookLocked
+  suffix: ChefCook, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChefCook ]
+
+- type: entity
+  parent: Airlock
+  id: AirlockChefCookLocked
+  suffix: ChefCook, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChefCook ]
