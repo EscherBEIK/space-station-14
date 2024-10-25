@@ -143,6 +143,7 @@
     - KnockedDown
     - SlowedDown
     - Flashed
+    - SeeingStatic # _FtC IPC (shaders)
   - type: TypingIndicator
     proto: robot
   - type: Speech

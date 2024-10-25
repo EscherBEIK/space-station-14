@@ -144,6 +144,8 @@
     priority: 1
   - type: StaticPrice
     price: 500
+  - type: BatteryDrinkerSource # _FtC - IPC
+    maxAmount: 10000
 
 # APC under construction
 - type: entity

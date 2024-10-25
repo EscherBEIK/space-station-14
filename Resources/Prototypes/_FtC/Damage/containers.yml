@@ -1,0 +1,5 @@
+- type: damageContainer
+  id: _FtCSiliconDamageContainer
+  supportedGroups:
+    - Brute
+    - Burn

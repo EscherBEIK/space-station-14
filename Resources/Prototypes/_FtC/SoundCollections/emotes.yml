@@ -1,0 +1,35 @@
+# IPC
+- type: soundCollection
+  id: SynthYes
+  files:
+    - /Audio/_FtC/IPC/synth_yes.ogg
+
+- type: soundCollection
+  id: SynthNo
+  files:
+    - /Audio/_FtC/IPC/synth_no.ogg
+
+- type: soundCollection
+  id: Ping
+  files:
+    - /Audio/_FtC/IPC/ping.ogg
+
+- type: soundCollection
+  id: Buzz
+  files:
+    - /Audio/_FtC/IPC/buzz-sigh.ogg
+
+- type: soundCollection
+  id: SighIPC
+  files:
+    - /Audio/_FtC/IPC/buzz-two.ogg
+
+- type: soundCollection
+  id: ScreamIPC
+  files:
+    - /Audio/_FtC/IPC/synth_scream.ogg
+
+- type: soundCollection
+  id: SighBuzz
+  files:
+    - /Audio/_FtC/IPC/buzz-two.ogg

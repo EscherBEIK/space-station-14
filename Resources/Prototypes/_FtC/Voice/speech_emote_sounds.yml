@@ -105,3 +105,25 @@
       collection: VulpkaninHowls
     Bark:
       collection: VulpkaninBarks
+
+- type: emoteSounds
+  id: UnisexIPC
+  sounds:
+    RobotBeep:
+      collection: RobotBeeps
+    SynthYes:
+      path: /Audio/_FtC/IPC/synth_yes.ogg
+    SynthNo:
+      path: /Audio/_FtC/IPC/synth_no.ogg
+    Ping:
+      path: /Audio/_FtC/IPC/ping.ogg
+    Buzz:
+      path: /Audio/_FtC/IPC/buzz-sigh.ogg
+    SighBuzz:
+      path: /Audio/_FtC/IPC/buzz-two.ogg
+    Sigh:
+      path: /Audio/_FtC/IPC/buzz-two.ogg
+    Scream:
+      path: /Audio/_FtC/IPC/synth_scream.ogg
+  params:
+    variation: 0.125

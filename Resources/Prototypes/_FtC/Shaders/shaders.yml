@@ -1,0 +1,6 @@
+# Simple Station
+
+- type: shader
+  id: SeeingStatic
+  kind: source
+  path: "/Textures/_FtC/Shaders/seeing_static.swsl"
