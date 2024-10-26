@@ -9,8 +9,6 @@
       - id: ClothingHeadsetAltCommand
       - id: CigarGoldCase
         prob: 0.25
-      - id: TrackingImplanter
-        amount: 5
 
 - type: entity
   id: LockerBlueshieldFilledHardsuit
@@ -23,8 +21,6 @@
     - id: ClothingHeadsetAltCommand
     - id: CigarGoldCase
       prob: 0.25
-    - id: TrackingImplanter
-      amount: 5
     - id: ClothingOuterHardsuitBlueshield
     - id: OxygenTankFilled
     - id: ClothingMaskBreathMedicalSecurity
@@ -42,4 +38,3 @@
       amount: 1
     - id: MagazineRifle
       amount: 2
-    - id: WeaponEnergyGunMultiphase

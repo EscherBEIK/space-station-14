@@ -29,3 +29,11 @@
   components:
   - type: AccessReader
     access: [["ChefCook"]]
+    
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsServiceAdministratorChefCook
+  suffix: ServiceAdministratorChefCook, Locked
+  components:
+  - type: AccessReader
+    access: [["ServiceAdministrator"], ["ChefCook"]]

@@ -105,3 +105,30 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsChefCook ]
+      
+- type: entity
+  parent: AirlockGlass
+  id: AirlockChefCookServiceAdministratorGlassLocked
+  suffix: ChefCookServiceAdministrator, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsServiceAdministratorChefCook ]
+
+- type: entity
+  parent: AirlockMaint
+  id: AirlockMaintChefCookServiceAdministratorLocked
+  suffix: ChefCookServiceAdministrator, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsServiceAdministratorChefCook ]
+
+- type: entity
+  parent: Airlock
+  id: AirlockChefCookServiceAdministratorLocked
+  suffix: ChefCookServiceAdministrator, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsServiceAdministratorChefCook ]
