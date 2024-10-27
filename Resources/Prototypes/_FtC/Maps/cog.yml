@@ -9,10 +9,10 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} Cog {1}'
+          mapNameTemplate: '{0} Шестерня {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
-            prefixCreator: 'R4' # R4407/Goon. GS isn't as cool sounding.
+            prefixCreator: 'ИСН' # R4407/Goon. GS isn't as cool sounding.
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/Shuttles/emergency_wode.yml
         - type: StationJobs
