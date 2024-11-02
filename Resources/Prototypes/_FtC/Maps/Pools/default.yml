@@ -13,3 +13,8 @@
   - PackedFtC
   - ReachFtC
   - TrainFtC
+
+- type: weightedRandom
+  id: DefaultCentcomPool
+  weights:
+    CentComm: 0.5
