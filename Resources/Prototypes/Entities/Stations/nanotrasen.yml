@@ -35,12 +35,16 @@
     - BaseStation
     - BaseStationAlertLevels
     - BaseStationNanotrasen
+    - BaseStationArrivals #FtC-Centcomm
+    - BaseStationNews #FtC-Centcomm
     - BaseStationCargo #FtC-Centcomm
     - BaseStationJobsSpawning #FtC-Centcomm
     - BaseStationRecords #FtC-Centcomm
     - BaseStationShuttles #FtC-Centcomm
     - BaseStationExpeditions #FtC-Centcomm
     - BaseStationMagnet #FtC-Centcomm
+    - BaseStationSiliconLawCrewsimov #FtC-Centcomm
+    - BaseStationAllEventsEligible #FtC-Centcomm
   categories: [ HideSpawnMenu ]
   components:
     - type: Transform
