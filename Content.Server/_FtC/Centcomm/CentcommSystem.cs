@@ -123,10 +123,6 @@ public sealed class CentcommSystem : EntitySystem
         {
             return; // Do not announce out of round
         }
-
-        _chat.DispatchStationAnnouncement(CentComGrid,
-            $"Внимание! Радары обнаружили {shuttleName} шаттл, входящий в космическое пространство объекта Центрального Командования!",
-            "Радар", colorOverride: Color.Crimson);
     }
 
     private void OnFTLCompleted(ref FTLCompletedEvent ev)

@@ -1,0 +1,19 @@
+- type: parallax
+  id: LighthouseStation
+  layers:
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/_FtC/Parallaxes/Centralcommand.png"
+      slowness: 0.94
+      scale: 1,1
+      scrolling: "-0.006, -0.004"
+      
+- type: parallax
+  id: CorvaxGeltaStation
+  layers:
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/_FtC/Parallaxes/Geltastation.png"
+      slowness: 0.94
+      scale: 0.5,0.5
+      scrolling: "-0.004,  0.002"

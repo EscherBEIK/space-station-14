@@ -35,6 +35,9 @@ entities:
     - type: MovedGrids
     - type: Broadphase
     - type: OccluderTree
+    - type: Parallax
+      parallax: LighthouseStation
+    - type: LoadedMap
   - uid: 1668
     components:
     - type: MetaData
@@ -2888,8 +2891,8 @@ entities:
         - volume: 2500
           temperature: 293.14975
           moles:
-          - 21.824879
-          - 82.10312
+          - 20.078888
+          - 75.53487
           - 0
           - 0
           - 0
@@ -3408,6 +3411,11 @@ entities:
     - type: Transform
       pos: -14.5,27.5
       parent: 1668
+  - uid: 3902
+    components:
+    - type: Transform
+      pos: -21.5,-24.5
+      parent: 1668
   - uid: 3970
     components:
     - type: Transform
@@ -3417,6 +3425,11 @@ entities:
     components:
     - type: Transform
       pos: -32.5,0.5
+      parent: 1668
+  - uid: 4251
+    components:
+    - type: Transform
+      pos: -21.5,-26.5
       parent: 1668
   - uid: 6284
     components:
@@ -3444,16 +3457,6 @@ entities:
     components:
     - type: Transform
       pos: -13.5,-17.5
-      parent: 1668
-  - uid: 5961
-    components:
-    - type: Transform
-      pos: -21.5,-26.5
-      parent: 1668
-  - uid: 5962
-    components:
-    - type: Transform
-      pos: -21.5,-24.5
       parent: 1668
 - proto: AirlockExternalGlassShuttleArrivals
   entities:
@@ -17816,32 +17819,24 @@ entities:
     - type: Transform
       pos: -9.5,-21.5
       parent: 1668
-    - type: Fixtures
-      fixtures:
-        fix1:
-          shape: !type:PolygonShape
-            radius: 0.01
-            vertices:
-            - -0.25,-0.48
-            - 0.25,-0.48
-            - 0.25,0.48
-            - -0.25,0.48
-          mask:
-          - Impassable
-          - TableLayer
-          - LowImpassable
-          layer:
-          - BulletImpassable
-          - Opaque
-          density: 75
-          hard: True
-          restitution: 0
-          friction: 0.4
     - type: EntityStorage
-      open: True
-      removedMasks: 20
-    - type: PlaceableSurface
-      isPlaceable: True
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
 - proto: ClosetEmergencyFilledRandom
   entities:
   - uid: 1071

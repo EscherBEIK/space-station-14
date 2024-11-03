@@ -18,6 +18,6 @@ comms-console-message-too-long = Сообщение слишком длинно�
 comms-console-announcement-sent-by = Отправитель
 comms-console-announcement-unknown-sender = Неизвестный
 # Comms console variant titles
-comms-console-announcement-title-station = Консоль связи
-comms-console-announcement-title-centcom = Центральное командование
+comms-console-announcement-title-station = Консоли связи
+comms-console-announcement-title-centcom = Центрального командования
 comms-console-announcement-title-nukie = Ядерные оперативники Синдиката
