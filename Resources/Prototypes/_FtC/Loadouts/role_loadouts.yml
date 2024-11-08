@@ -116,3 +116,14 @@
   - Trinkets
   - Survival
   - GroupSpeciesBreathTool
+  
+- type: roleLoadout
+  id: JobCentcommRepresentative
+  groups:
+  - CommonBackpack
+  - CentCommOperatorJumpsuit
+  - CentCommOperatorHats
+  - Trinkets
+  - Survival
+  - GroupSpeciesBreathTool
+  - CentCommRepresentativeNeck

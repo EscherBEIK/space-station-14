@@ -35,3 +35,7 @@
 #FtC-Centcomm
 - type: playTimeTracker
   id: JobCentcommOperator
+
+- type: playTimeTracker
+  id: JobCentcommRepresentative
+

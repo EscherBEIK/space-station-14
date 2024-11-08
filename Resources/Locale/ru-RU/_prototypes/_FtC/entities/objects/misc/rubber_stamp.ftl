@@ -15,3 +15,7 @@ ent-RubberStampCentcommOperator = печать оператора Центком
     .desc = { ent-RubberStampBase.desc }
     .suffix = НЕ МАППИТЬ
 stamp-component-stamped-name-centcommoperator = Оператор ЦК
+ent-RubberStampCentcommRepresentative = печать представителя Центком
+    .desc = { ent-RubberStampBase.desc }
+    .suffix = НЕ МАППИТЬ
+stamp-component-stamped-name-centcommrepresentative = Представитель ЦК

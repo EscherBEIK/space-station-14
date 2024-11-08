@@ -26,3 +26,4 @@
   weight: 85
   roles:
     - CentcommOperator
+    - CentcommRepresentative

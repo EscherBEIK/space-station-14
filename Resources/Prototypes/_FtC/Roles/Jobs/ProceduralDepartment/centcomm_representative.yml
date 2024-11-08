@@ -1,0 +1,31 @@
+- type: job
+  id: CentcommRepresentative
+  name: job-name-centcomrep
+  description: job-description-centcomrep
+  playTimeTracker: JobCentcommRepresentative
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 36000 #10 hrs
+  weight: 29
+  startingGear: CentcommRepresentativeGear
+  icon: "JobIconCentcommRepresentative"
+  supervisors: job-supervisors-headofcentcomm
+  access:
+    - Command
+    - Maintenance
+    - External
+    - Brig
+    - Ntrep
+    - CentralCommand
+# 09.11.2024 Let him request full access before leaving for the station from the Chief of Staff of the Centcom. He does not need it on the Centcomm station and can lead to abuse of access. (С) Kamenev
+
+- type: startingGear
+  id: CentcommRepresentativeGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    id: CentcommRepresentativePDA
+    ears: ClothingHeadsetCentCom
+    pocket1: RubberStampCentcom
+    pocket2: RubberStampCentcommRepresentative
+    belt: WeaponPistolN1984

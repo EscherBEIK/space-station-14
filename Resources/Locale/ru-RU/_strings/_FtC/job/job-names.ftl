@@ -20,6 +20,7 @@ job-name-clown-borg = клоун киборг
 job-name-barber = Парихмахер
 job-name-chefcook = шеф-повар
 job-name-serviceadministrator = администратор барного зала
+job-name-centcomrep = представитель центком
 # Перевод трекеров времени
 JobCentCommOfficial = представитель Центком
 JobMagistrat = магистрат
@@ -49,4 +50,6 @@ JobPeaceBorg = миротворец
 JobClownBorg = клоун киборг
 JobChefCook = шеф-повар
 JobServiceAdministrator = администратор барного зала
+JobCentcommRepresentative = представитель центком
+JobCentcommOperator = оператор центком
 

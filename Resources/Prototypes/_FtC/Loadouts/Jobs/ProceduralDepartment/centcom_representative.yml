@@ -1,0 +1,10 @@
+- type: loadout
+  id: HeadHatCentcomrepresentativeScarf
+  equipment:
+    neck: ClothingNeckCloakCentcom
+    
+- type: loadout
+  id: HeadHatCentcomrepresentativeCloak
+  equipment:
+    neck: ClothingNeckScarfStripedCentcom
+    

@@ -32892,6 +32892,13 @@ entities:
     - type: Transform
       pos: -0.5,-0.5
       parent: 1668
+- proto: SpawnPointCentcommRepresentative
+  entities:
+  - uid: 2917
+    components:
+    - type: Transform
+      pos: -26.5,-6.5
+      parent: 1668
 - proto: SS13Memorial
   entities:
   - uid: 486

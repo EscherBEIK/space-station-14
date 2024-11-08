@@ -38,3 +38,16 @@
     stampState: "paper_stamp-centcom"
   - type: Sprite
     state: stamp-centcom
+    
+- type: entity
+  name: Печать представителя Центком
+  parent: RubberStampBase
+  id: RubberStampCentcommRepresentative
+  suffix: DO NOT MAP
+  components:
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-centcommrepresentative
+    stampedColor: "#006600"
+    stampState: "paper_stamp-centcom"
+  - type: Sprite
+    state: stamp-centcom

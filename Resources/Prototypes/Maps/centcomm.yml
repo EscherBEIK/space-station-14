@@ -16,3 +16,4 @@
           availableJobs:
             #ProceduralDepartment
             CentcommOperator: [ 1, 1 ]
+            CentcommRepresentative: [ 1, 1 ]

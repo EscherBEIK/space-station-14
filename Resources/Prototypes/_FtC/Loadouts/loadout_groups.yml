@@ -125,3 +125,12 @@
   loadouts:
   - ClothingHeadHatCentcom
   - HeadHatCentcomcap
+  
+- type: loadoutGroup
+  id: CentCommRepresentativeNeck
+  name: loadout-group-centcomm-representative-neck-cloak
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - HeadHatCentcomrepresentativeScarf
+  - HeadHatCentcomrepresentativeCloak

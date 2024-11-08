@@ -101,3 +101,18 @@
   - type: Item
   - type: PresetIdCard
     job: CentcommOperator
+
+- type: entity
+  parent: IDCardStandard
+  id: CentcommRepresentativeIDCard
+  name: ID карта представителя Центком
+  description: Карта, необходимая для доступа в различные области станции.
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Misc/id_cards.rsi
+    layers:
+    - state: centcom
+    - state: idcentcommrepresentative
+  - type: Item
+  - type: PresetIdCard
+    job: Centcommrepresentative

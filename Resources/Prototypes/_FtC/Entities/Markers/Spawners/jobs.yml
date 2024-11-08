@@ -99,13 +99,27 @@
       - state: green
       - state: chef
       
+#FtC-Centcomm
+
 - type: entity
   id: SpawnPointCentcommOperator
   parent: SpawnPointJobBase
   name: CentcommOperator
   components:
   - type: SpawnPoint
-    job_id: CentcommOperator # FtC-ChefCook
+    job_id: CentcommOperator 
+  - type: Sprite
+    layers:
+      - state: green
+      - state: centcom
+      
+- type: entity
+  id: SpawnPointCentcommRepresentative
+  parent: SpawnPointJobBase
+  name: CentcommRepresentative
+  components:
+  - type: SpawnPoint
+    job_id: CentcommRepresentative
   - type: Sprite
     layers:
       - state: green

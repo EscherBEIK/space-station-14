@@ -37,3 +37,10 @@
   icon:
     sprite: /Textures/_FtC/Interface/Misc/job_icons.rsi
     state: CentcommOperator
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCentcommRepresentative
+  icon:
+    sprite: /Textures/_FtC/Interface/Misc/job_icons.rsi
+    state: CentcommRepresentative

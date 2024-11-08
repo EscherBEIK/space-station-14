@@ -42,6 +42,9 @@
 		},
 		{
 			"name": "pda-centcommoperator"
+		},
+		{
+			"name": "pda-centcommrepresentative"
 		}
     ]
 }

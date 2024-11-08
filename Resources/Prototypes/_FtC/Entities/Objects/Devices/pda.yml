@@ -117,7 +117,7 @@
   parent: BaseSecurityPDA
   id: CentcommOperatorPDA
   name: КПК оператора Центком
-  description: Невзрачный КПК призмаринового цвета. Символ Вашего пожизненного рабства в офисе.
+  description: Невзрачный КПК аквамаринового цвета. Символ Вашего пожизненного рабства в офисе.
   components:
   - type: Sprite
     sprite: _FtC/Objects/Devices/pda.rsi
@@ -144,3 +144,35 @@
   - type: Icon
     sprite: _FtC/Objects/Devices/pda.rsi
     state: pda-centcommoperator
+
+- type: entity
+  parent: BaseSecurityPDA
+  id: CentcommRepresentativePDA
+  name: КПК представителя Центком
+  description: КПК тёмно-аквамаринового цвета, являющийся символом Вашей власти над капитанами. По-видимому, он до сих пор пропитан их слезами.
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Devices/pda.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
+  - type: Pda
+    id: CentcommRepresentativeIDCard
+    state: pda-centcommrepresentative
+    penSlot:
+      startingItem: PenCentcom
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#008B8B"
+  - type: Icon
+    sprite: _FtC/Objects/Devices/pda.rsi
+    state: pda-centcommrepresentative
