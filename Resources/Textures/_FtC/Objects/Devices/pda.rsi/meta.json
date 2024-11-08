@@ -1,7 +1,7 @@
 {
     "version": 1,
-    "license": "CLA",
-    "copyright": "FtC",
+    "license": "CC-BY-SA 3.0",
+    "copyright": "Tooken from Space-Wizards/Space-station-14 or Space-Sunrise/Space-station-14, reworked by Kamenev for FtC MRP+ Server",
     "size": {
         "x": 32,
         "y": 32
@@ -39,6 +39,9 @@
         },
 		{
 			"name": "pda-chefcook"
+		},
+		{
+			"name": "pda-centcommoperator"
 		}
     ]
 }

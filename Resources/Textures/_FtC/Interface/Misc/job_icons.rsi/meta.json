@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA 3.0",
-    "copyright": "Kamenev for FtC",
+    "copyright": "Reworked from Space-Wizards/Space-station-14 and Space-Sunrise/Space-station-14 by Kamenev for FtC MRP+ server",
     "size": {
         "x": 8,
         "y": 8
@@ -15,7 +15,9 @@
         },
 		{
 			"name": "ChefCook"
+		},
+		{
+			"name": "CentcommOperator"
 		}
-		
     ]
 }

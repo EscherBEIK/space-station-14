@@ -29,3 +29,11 @@
   icon:
     sprite: /Textures/_FtC/Interface/Misc/job_icons.rsi
     state: ChefCook
+    
+#FtC-Centcomm
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconCentcommOperator
+  icon:
+    sprite: /Textures/_FtC/Interface/Misc/job_icons.rsi
+    state: CentcommOperator

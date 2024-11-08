@@ -106,3 +106,13 @@
   - ChefCookHat
   - ChefCookJumpsuit
   - ChefCookApron
+
+#FtC-Centcomm
+- type: roleLoadout
+  id: JobCentcommOperator
+  groups:
+  - CentCommOperatorJumpsuit
+  - CentCommOperatorHats
+  - Trinkets
+  - Survival
+  - GroupSpeciesBreathTool

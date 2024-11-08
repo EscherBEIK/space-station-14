@@ -83,6 +83,8 @@
   - type: Icon
     sprite: _FtC/Objects/Devices/pda.rsi
     state: pda-serviceadministrator
+  - type: PdaBorderColor
+    borderColor: "##800000"
 
 - type: entity
   parent: BasePDA
@@ -108,3 +110,37 @@
   - type: Icon
     sprite: _FtC/Objects/Devices/pda.rsi
     state: pda-chefcook
+  - type: PdaBorderColor
+    borderColor: "##800000"
+
+- type: entity
+  parent: BaseSecurityPDA
+  id: CentcommOperatorPDA
+  name: КПК оператора Центком
+  description: Невзрачный КПК призмаринового цвета. Символ Вашего пожизненного рабства в офисе.
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Devices/pda.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
+  - type: Pda
+    id: CentcommOperatorIDCard
+    state: pda-centcommoperator
+    penSlot:
+      startingItem: PenCentcom
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#008B8B"
+  - type: Icon
+    sprite: _FtC/Objects/Devices/pda.rsi
+    state: pda-centcommoperator

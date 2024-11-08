@@ -49,3 +49,4 @@ JobPeaceBorg = миротворец
 JobClownBorg = клоун киборг
 JobChefCook = шеф-повар
 JobServiceAdministrator = администратор барного зала
+

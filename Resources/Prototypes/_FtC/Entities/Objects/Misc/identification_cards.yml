@@ -85,3 +85,19 @@
   - type: Item
   - type: PresetIdCard
     job: ChefCook
+
+#Ftc-Centcomm
+- type: entity
+  parent: IDCardStandard
+  id: CentcommOperatorIDCard
+  name: ID карта оператора Центком
+  description: Карта, необходимая для доступа в различные области станции.
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Misc/id_cards.rsi
+    layers:
+    - state: centcom
+    - state: idcentcommoperator
+  - type: Item
+  - type: PresetIdCard
+    job: CentcommOperator

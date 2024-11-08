@@ -17,3 +17,12 @@
   roles:
     - NanoTrasenRepresentative
     - BlueShield
+
+- type: department
+  id: ProceduralDepartment
+  name: department-ProceduralDepartment
+  description: department-ProceduralDepartment-description
+  color: "#20B2AA"
+  weight: 85
+  roles:
+    - CentcommOperator

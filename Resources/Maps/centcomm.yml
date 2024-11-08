@@ -32237,11 +32237,6 @@ entities:
       parent: 1668
 - proto: RubberStampCentcom
   entities:
-  - uid: 2917
-    components:
-    - type: Transform
-      pos: 0.630217,1.1330963
-      parent: 1668
   - uid: 3749
     components:
     - type: Transform
@@ -32253,13 +32248,6 @@ entities:
     components:
     - type: Transform
       pos: 25.691332,-7.585862
-      parent: 1668
-- proto: RubberStampQm
-  entities:
-  - uid: 2234
-    components:
-    - type: Transform
-      pos: -12.516554,9.632545
       parent: 1668
 - proto: RubberStampTrader
   entities:
@@ -32896,6 +32884,13 @@ entities:
     components:
     - type: Transform
       pos: 7.5,-21.5
+      parent: 1668
+- proto: SpawnPointCentcommOperator
+  entities:
+  - uid: 2234
+    components:
+    - type: Transform
+      pos: -0.5,-0.5
       parent: 1668
 - proto: SS13Memorial
   entities:

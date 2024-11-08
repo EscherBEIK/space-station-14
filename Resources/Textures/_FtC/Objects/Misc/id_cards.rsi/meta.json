@@ -35,7 +35,20 @@
         },
 		{
 			"name": "idchefcook"
+		},
+		{
+            "name": "centcom"
+        },
+        {
+            "name": "blue-inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "blue-inhand-right",
+            "directions": 4
+        },
+		{
+			"name": "idcentcommoperator"
 		}
-		
     ]
 }

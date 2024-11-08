@@ -1,0 +1,31 @@
+- type: job
+  id: CentcommOperator
+  name: job-name-centcomop
+  description: job-description-centcomop
+  playTimeTracker: JobCentcommOperator
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 36000 #10 hrs
+  weight: 30
+  startingGear: CentcommOperatorGear
+  icon: "JobIconCentcommOperator"
+  supervisors: job-supervisors-headofcentcomm
+  access:
+    - Command
+    - Maintenance
+    - External
+    - Brig
+    - Ntrep
+    - CentralCommand
+  
+
+- type: startingGear
+  id: CentcommOperatorGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    id: CentcommOperatorPDA
+    ears: ClothingHeadsetCentCom
+    pocket1: RubberStampCentcom
+    pocket2: RubberStampCentcommOperator
+    belt: WeaponPistolN1984

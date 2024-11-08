@@ -1,4 +1,2 @@
-department-Law-description = Защищяйте, судите или накажите преступников.
-department-CentralCommand-description = Большие шишки.
-department-PlanetPrison-description = Не дайте нарушителям закона сбежать.
-department-Blueshield-description = Ваша задача дефать самоубийц на главах. Довольно бесполезно...
+department-Law-description = Верховенство закона - сейчас!
+department-ProceduralDepartment-description = Вы - ответственные за написание приказов от ЦК для всего сектора.

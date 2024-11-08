@@ -109,3 +109,19 @@
   name: loadout-group-chefcook-apron
   loadouts:
   - ChefCookApron
+#FtC-Centcomm
+- type: loadoutGroup
+  id: CentCommOperatorJumpsuit
+  name: loadout-group-centcomm-operator-jumpsuit
+  loadouts:
+  - CentCommOfficialJumpsuit
+  - CentCommOfficerJumpsuit
+  - CentCommOfficerJumpsuitFormal
+  - CentCommOfficerJumpskirtFormal
+
+- type: loadoutGroup
+  id: CentCommOperatorHats
+  name: loadout-group-centcomm-operator-head-hat
+  loadouts:
+  - ClothingHeadHatCentcom
+  - HeadHatCentcomcap
