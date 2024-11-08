@@ -32,3 +32,6 @@
 - type: playTimeTracker
   id: JobChefCook
   
+#FtC-Centcomm
+- type: playTimeTracker
+  id: JobCentcommOperator
