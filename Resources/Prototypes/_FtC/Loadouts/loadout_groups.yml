@@ -134,3 +134,26 @@
   loadouts:
   - HeadHatCentcomrepresentativeScarf
   - HeadHatCentcomrepresentativeCloak
+  
+- type: loadoutGroup
+  id: OfficeWorkerJumpsuit
+  name: Офисный работник, комбинезон
+  loadouts:
+  - OfficeWorkerJumpsuit
+
+- type: loadoutGroup
+  id: OfficeWorkerNeck
+  name: Офисный работник, шея
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - OfficeWorkerNeck
+  - RedTie
+  
+- type: loadoutGroup
+  id: OfficeWorkerCoat
+  name: Офисный работник, пиджак
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - OfficeWorkerCoat

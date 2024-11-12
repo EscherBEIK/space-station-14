@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckTieBow
+  name: галстук-бабочка
+  description: Изящный галстук-бабочка, олицетворяющий Вашу занятость канцелярской работой.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Neck/Ties/bowtie.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Neck/Ties/bowtie.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
+    - ClothMade

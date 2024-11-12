@@ -116,3 +116,18 @@
   - type: Item
   - type: PresetIdCard
     job: Centcommrepresentative
+    
+- type: entity
+  parent: IDCardStandard
+  id: OfficeWorkerIDCard
+  name: ID карта офисного работника
+  description: Карта, необходимая для доступа в различные области станции.
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Misc/id_cards.rsi
+    layers:
+    - state: centcom
+    - state: idofficeworker
+  - type: Item
+  - type: PresetIdCard
+    job: OfficeWorker

@@ -1,5 +1,5 @@
 job-name-magistrat = магистрат
-job-name-centcomop = оператор Центком
+job-name-centcomop = оператор центком
 job-name-blueshield = офицер «Синий Щит»
 job-name-iaa = агент внутренних дел
 job-name-senior-engineer = ведущий инженер
@@ -21,8 +21,9 @@ job-name-barber = Парихмахер
 job-name-chefcook = шеф-повар
 job-name-serviceadministrator = администратор барного зала
 job-name-centcomrep = представитель центком
+job-name-office-worker = офисный работник
 # Перевод трекеров времени
-JobCentCommOfficial = представитель Центком
+JobCentCommOfficial = представитель центком
 JobMagistrat = магистрат
 JobSeniorEngineer = ведущий инженер
 JobSeniorOfficer = инструктор СБ
@@ -52,4 +53,4 @@ JobChefCook = шеф-повар
 JobServiceAdministrator = администратор барного зала
 JobCentcommRepresentative = представитель центком
 JobCentcommOperator = оператор центком
-
+JobOfficeWorker = офисный работник

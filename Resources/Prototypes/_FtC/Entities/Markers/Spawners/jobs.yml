@@ -124,3 +124,15 @@
     layers:
       - state: green
       - state: centcom
+      
+- type: entity
+  id: SpawnPointOfficeWorker
+  parent: SpawnPointJobBase
+  name: OfficeWorker
+  components:
+  - type: SpawnPoint
+    job_id: OfficeWorker
+  - type: Sprite
+    layers:
+      - state: green
+      - state: centcom

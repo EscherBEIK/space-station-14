@@ -27,3 +27,4 @@
   roles:
     - CentcommOperator
     - CentcommRepresentative
+    - OfficeWorker

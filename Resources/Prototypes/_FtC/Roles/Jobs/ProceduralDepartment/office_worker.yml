@@ -1,0 +1,25 @@
+- type: job
+  id: OfficeWorker
+  name: job-name-office-worker
+  description: job-description-office-worker
+  playTimeTracker: JobOfficeWorker
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 36000 #10 hrs
+  weight: 10
+  startingGear: OfficeWorkerGear
+  icon: "JobIconOfficeWorker"
+  supervisors: job-supervisors-proceduraldepartment
+  access:
+    - Command
+    - Maintenance
+    - CentralCommand
+  
+
+- type: startingGear
+  id: OfficeWorkerGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    id: OfficeWorkerPDA
+    ears: ClothingHeadsetCentCom

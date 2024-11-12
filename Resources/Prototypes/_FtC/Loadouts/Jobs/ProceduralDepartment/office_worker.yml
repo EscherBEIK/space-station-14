@@ -1,0 +1,20 @@
+- type: loadout
+  id: OfficeWorkerJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitOfficeWorker
+
+- type: loadout
+  id: OfficeWorkerNeck
+  equipment:
+    neck: ClothingNeckTieBow
+
+- type: loadout
+  id: OfficeWorkerCoat
+  equipment:
+    outerClothing: ClothingOuterCoatOfficeWorker
+    
+- type: loadout
+  id: RedTie
+  equipment:
+    neck: ClothingNeckTieRed
+    

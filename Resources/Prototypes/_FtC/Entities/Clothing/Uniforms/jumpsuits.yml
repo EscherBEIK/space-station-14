@@ -63,3 +63,14 @@
     sprite: _FtC/Clothing/Uniforms/Jumpsuit/chefcook.rsi
   - type: Clothing
     sprite: _FtC/Clothing/Uniforms/Jumpsuit/chefcook.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitOfficeWorker
+  name: костюм офисного работника
+  description: Некогда часть строгого мужского костюма, которая ныне представляет из себя лишь комбинезон офисного клерка. Открыто демонстрирует Вашу неопытность.
+  components:
+  - type: Sprite
+    sprite: _FtC/Clothing/Uniforms/Jumpsuit/officeworker.rsi
+  - type: Clothing
+    sprite: _FtC/Clothing/Uniforms/Jumpsuit/officeworker.rsi

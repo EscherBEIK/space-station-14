@@ -127,3 +127,14 @@
   - Survival
   - GroupSpeciesBreathTool
   - CentCommRepresentativeNeck
+
+- type: roleLoadout
+  id: JobOfficeWorker
+  groups:
+  - CommonBackpack
+  - Trinkets
+  - Survival
+  - GroupSpeciesBreathTool
+  - OfficeWorkerJumpsuit
+  - OfficeWorkerNeck
+  - OfficeWorkerCoat

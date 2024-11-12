@@ -5,7 +5,7 @@
   playTimeTracker: JobCentcommOperator
   requirements:
     - !type:DepartmentTimeRequirement
-      department: Command
+      department: ProceduralDepartment
       time: 36000 #10 hrs
   weight: 30
   startingGear: CentcommOperatorGear

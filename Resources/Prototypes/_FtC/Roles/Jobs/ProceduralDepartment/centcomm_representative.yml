@@ -5,7 +5,7 @@
   playTimeTracker: JobCentcommRepresentative
   requirements:
     - !type:DepartmentTimeRequirement
-      department: Command
+      department: ProceduralDepartment
       time: 36000 #10 hrs
   weight: 29
   startingGear: CentcommRepresentativeGear
