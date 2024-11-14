@@ -27471,7 +27471,7 @@ entities:
       parent: 1668
 - proto: NetworkConfigurator
   entities:
-  - uid: 1461
+  - uid: 2282003
     components:
     - type: Transform
       pos: 13.484868,-12.584605
