@@ -1,0 +1,71 @@
+- type: entity
+  parent: BasePlushie
+  id: PlushieShiro
+  name: плюшевый Широ
+  description: плюшевая игрушка, изображающая вульпканина. В его глазах отчётливо отражается красочное звёздное небо
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Fun/toys.rsi
+    state: shiro
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_FtC/Voice/Vulpkanin/howl.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_FtC/Voice/Vulpkanin/bark.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/_FtC/Voice/Vulpkanin/dog_bark3.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/_FtC/Voice/Vulpkanin/dog_whine.ogg
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      path: /Audio/_FtC/Voice/Vulpkanin/dog_growl1.ogg
+      
+- type: entity
+  parent: BasePlushie
+  id: PlushieShiroAndHeart
+  name: плюшевый Широ с сердцем
+  description: игрушка шаловливого парня с искрой в глазах и глубокой любовью в душе. Кажется, где-то должна быть его вторая половинка
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Fun/toys.rsi
+    state: heart_and_shiro
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_FtC/Voice/Vulpkanin/howl.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_FtC/Voice/Vulpkanin/bark.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/_FtC/Voice/Vulpkanin/dog_bark3.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/_FtC/Voice/Vulpkanin/dog_whine.ogg
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      path: /Audio/_FtC/Voice/Vulpkanin/dog_growl1.ogg
+      
+- type: entity
+  parent: BasePlushie
+  id: PlushieIv
+  name: плюшевая Ив
+  description: небольшая плюшевая игрушка какой-то бестидки. Быть может, ей чего-то не хватает?
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Fun/toys.rsi
+    state: iv_and_heart
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Animals/cat_meow2.ogg
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      path: /Audio/Animals/cat_meow.ogg
+      
