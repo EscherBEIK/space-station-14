@@ -82,7 +82,7 @@ public sealed partial class CCVars
         ///     Prototype to use for map pool.
         /// </summary>
         public static readonly CVarDef<string>
-            GameMapPool = CVarDef.Create("game.map_pool", "DefaultMapPool", CVar.SERVERONLY);
+            GameMapPool = CVarDef.Create("game.map_pool", "FtCMapPool", CVar.SERVERONLY);
 
         /// <summary>
         ///     The depth of the queue used to calculate which map is next in rotation.
@@ -131,7 +131,7 @@ public sealed partial class CCVars
             CVarDef.Create("game.diagonalmovement", true, CVar.ARCHIVE);
 
         public static readonly CVarDef<int> SoftMaxPlayers =
-            CVarDef.Create("game.soft_max_players", 30, CVar.SERVERONLY | CVar.ARCHIVE);
+            CVarDef.Create("game.soft_max_players", 120, CVar.SERVERONLY | CVar.ARCHIVE);
 
         /// <summary>
         ///     If a player gets denied connection to the server,
@@ -170,7 +170,7 @@ public sealed partial class CCVars
         ///     Show reason of disconnect for user or not.
         /// </summary>
         public static readonly CVarDef<bool> PanicBunkerShowReason =
-            CVarDef.Create("game.panic_bunker.show_reason", false, CVar.SERVERONLY);
+            CVarDef.Create("game.panic_bunker.show_reason", true, CVar.SERVERONLY);
 
         /// <summary>
         ///     Minimum age of the account (from server's PoV, so from first-seen date) in minutes.
