@@ -131,3 +131,18 @@
   - type: Item
   - type: PresetIdCard
     job: OfficeWorker
+    
+- type: entity
+  parent: IDCardStandard
+  id: CentcommAdmiralIDCard
+  name: ID карта начальника штаба Центком
+  description: Карта, необходимая для доступа в различные области станции.
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Misc/id_cards.rsi
+    layers:
+    - state: centcom
+    - state: idcentcommadmiral
+  - type: Item
+  - type: PresetIdCard
+    job: CentcommAdmiral

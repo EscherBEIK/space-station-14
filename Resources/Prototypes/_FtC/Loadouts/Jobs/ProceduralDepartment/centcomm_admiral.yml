@@ -1,0 +1,29 @@
+- type: loadout
+  id: CentCommAdmiralJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCentcomAdmiral
+
+- type: loadout
+  id: HeadHatCentcommNavalBeret
+  equipment:
+    head: ClothingHeadHatBeretCentcomNaval
+
+- type: loadout
+  id: HeadHatCentcommNavalHat
+  equipment:
+    head: ClothingHeadCapCentcomNaval
+    
+- type: loadout
+  id: HandsGlovesCentcommAdmiral
+  equipment:
+    gloves: ClothingHandsGlovesCentcomNaval
+    
+- type: loadout
+  id: NeckCentcommAdmiralCloak
+  equipment:
+    neck: ClothingNeckCloakCentcomAdmiral
+    
+- type: loadout
+  id: CentcommAdmiralArmor
+  equipment:
+    outerClothing: ClothingOuterArmorCentcomCarapace

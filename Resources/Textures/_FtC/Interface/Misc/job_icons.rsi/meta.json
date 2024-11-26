@@ -24,6 +24,12 @@
 		},
 		{
 			"name": "OfficeWorker"
+		},
+		{
+			"name": "LogisticsOfficer"
+		},
+		{
+			"name": "CentcommAdmiral"
 		}
     ]
 }

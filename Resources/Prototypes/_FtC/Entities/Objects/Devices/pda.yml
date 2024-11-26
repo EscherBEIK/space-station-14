@@ -201,3 +201,28 @@
   - type: Icon
     sprite: _FtC/Objects/Devices/pda.rsi
     state: pda-officeworker
+
+- type: entity
+  parent: BaseSecurityPDA
+  id: CentcommAdmiralPDA
+  name: КПК начальника штаба Центком
+  description: Для лучших из лучших.
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Devices/pda.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
+  - type: Pda
+    id: OfficeWorkerIDCard
+    state: pda-centcommadmiral
+  - type: Icon
+    sprite: _FtC/Objects/Devices/pda.rsi
+    state: pda-centcommadmiral

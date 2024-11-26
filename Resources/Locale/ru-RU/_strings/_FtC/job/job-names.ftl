@@ -22,6 +22,7 @@ job-name-chefcook = шеф-повар
 job-name-serviceadministrator = администратор барного зала
 job-name-centcomrep = представитель центком
 job-name-office-worker = офисный работник
+job-name-centcomadmiral = начальник штаба Центком
 # Перевод трекеров времени
 JobCentCommOfficial = представитель центком
 JobMagistrat = магистрат
@@ -54,3 +55,4 @@ JobServiceAdministrator = администратор барного зала
 JobCentcommRepresentative = представитель центком
 JobCentcommOperator = оператор центком
 JobOfficeWorker = офисный работник
+JobCentcommAdmiral = Начальник штаба Центком

@@ -42,3 +42,6 @@
 - type: playTimeTracker
   id: JobOfficeWorker
 
+- type: playTimeTracker
+  id: JobCentcommAdmiral
+

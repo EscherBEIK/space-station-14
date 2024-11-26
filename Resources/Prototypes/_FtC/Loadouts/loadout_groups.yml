@@ -157,3 +157,42 @@
   maxLimit: 1
   loadouts:
   - OfficeWorkerCoat
+  
+- type: loadoutGroup
+  id: CentcommAdmiralJumpsuit
+  name: Начальник штаба Центком, комбинезон
+  loadouts:
+  - CentCommAdmiralJumpsuit
+
+- type: loadoutGroup
+  id: CentcommAdmiralHat
+  name: Начальник штаба Центком, головной убор
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - HeadHatCentcommNavalBeret
+  - HeadHatCentcommNavalHat
+  
+- type: loadoutGroup
+  id: CentcommAdmiralGloves
+  name: Начальник штаба Центком, перчатки
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - HandsGlovesCentcommAdmiral
+  
+- type: loadoutGroup
+  id: CentcommAdmiralNeck
+  name: Начальник штаба Центком, шея
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - NeckCentcommAdmiralCloak
+  
+- type: loadoutGroup
+  id: CentcommAdmiralArmor
+  name: Начальник штаба Центком, верхняя одежда
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - CentcommAdmiralArmor

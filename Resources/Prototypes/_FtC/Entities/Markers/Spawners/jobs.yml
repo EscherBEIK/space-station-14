@@ -136,3 +136,15 @@
     layers:
       - state: green
       - state: centcom
+      
+- type: entity
+  id: SpawnPointCentcommAdmiral
+  parent: SpawnPointJobBase
+  name: CentcommAdmiral
+  components:
+  - type: SpawnPoint
+    job_id: CentcommAdmiral
+  - type: Sprite
+    layers:
+      - state: green
+      - state: centcom

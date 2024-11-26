@@ -138,3 +138,12 @@
   - OfficeWorkerJumpsuit
   - OfficeWorkerNeck
   - OfficeWorkerCoat
+  
+- type: roleLoadout
+  id: JobCentcommAdmiral
+  groups:
+  - CentcommAdmiralJumpsuit
+  - CentcommAdmiralHat
+  - CentcommAdmiralGloves
+  - CentcommAdmiralNeck
+  - CentcommAdmiralArmor

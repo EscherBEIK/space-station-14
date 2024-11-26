@@ -1,0 +1,28 @@
+- type: job
+  id: CentcommAdmiral
+  name: job-name-centcomadmiral
+  description: job-description-centcomadmiral
+  playTimeTracker: JobCentcommAdmiral
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: ProceduralDepartment
+      time: 1080000 #30 hrs
+  weight: 100
+  startingGear: CentcommAdmiralGear
+  icon: "JobIconCentcommAdmiral"
+  supervisors: job-supervisors-board-of-directors
+  access:
+  - CentcommAdmiral
+  accessGroups:
+  - AllAccess
+  
+
+- type: startingGear
+  id: CentcommAdmiralGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    id: CentcommAdmiralPDA
+    ears: ClothingHeadsetCentCom
+    pocket1: RubberStampCentcom
+    pocket2: RubberStampCentcommAdmiral
+    belt: WeaponPistolN1984

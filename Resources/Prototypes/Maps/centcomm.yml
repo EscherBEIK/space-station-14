@@ -17,4 +17,5 @@
             #ProceduralDepartment
             CentcommOperator: [ 1, 1 ]
             CentcommRepresentative: [ 1, 1 ]
-            OfficeWorker: [ 1, 1 ]
+            OfficeWorker: [ 2, 2 ]
+            CentcommAdmiral: [ 1, 1 ]

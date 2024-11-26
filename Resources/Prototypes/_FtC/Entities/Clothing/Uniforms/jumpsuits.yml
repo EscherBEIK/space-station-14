@@ -74,3 +74,14 @@
     sprite: _FtC/Clothing/Uniforms/Jumpsuit/officeworker.rsi
   - type: Clothing
     sprite: _FtC/Clothing/Uniforms/Jumpsuit/officeworker.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCentcomAdmiral
+  name: admiral's uniform
+  description: A uniform worn by those with the rank Admiral in the Nanotrasen Navy.
+  components:
+    - type: Sprite
+      sprite: _FtC/Clothing/Uniforms/Jumpsuit/centcom_admiral.rsi
+    - type: Clothing
+      sprite: _FtC/Clothing/Uniforms/Jumpsuit/centcom_admiral.rsi
