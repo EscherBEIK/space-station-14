@@ -16867,13 +16867,6 @@ entities:
     - type: Transform
       pos: 0.5,-45.5
       parent: 1668
-- proto: CentcomIDCard
-  entities:
-  - uid: 3721
-    components:
-    - type: Transform
-      pos: -16.521366,8.567018
-      parent: 1668
 - proto: CentcomPDA
   entities:
   - uid: 6617
@@ -32892,6 +32885,13 @@ entities:
     components:
     - type: Transform
       pos: 7.5,-21.5
+      parent: 1668
+- proto: SpawnPointCentcommAdmiral
+  entities:
+  - uid: 3721
+    components:
+    - type: Transform
+      pos: -15.5,10.5
       parent: 1668
 - proto: SpawnPointCentcommOperator
   entities:
