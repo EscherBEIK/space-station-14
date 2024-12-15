@@ -28,7 +28,20 @@ namespace Content.Server.Atmos.Portable
             Gas.WaterVapor,
             Gas.Ammonia,
             Gas.NitrousOxide,
-            Gas.Frezon
+            Gas.Frezon,
+            //FtC-Gas-Start
+            Gas.BZ,
+            Gas.Pluoxium,
+            Gas.Hydrogen,
+            Gas.Nitrium,
+            Gas.Healium,
+            Gas.HyperNoblium,
+            Gas.ProtoNitrate,
+            Gas.Zauker,
+            Gas.Halon,
+            Gas.Helium,
+            Gas.AntiNoblium
+            //FtC-Gas-End
         };
 
         [ViewVariables(VVAccess.ReadWrite)]

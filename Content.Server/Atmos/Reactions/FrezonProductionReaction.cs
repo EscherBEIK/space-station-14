@@ -14,6 +14,11 @@ public sealed partial class FrezonProductionReaction : IGasReactionEffect
 {
     public ReactionResult React(GasMixture mixture, IGasMixtureHolder? holder, AtmosphereSystem atmosphereSystem, float heatScale)
     {
+        //FtC-Gas-Start
+        var initialHyperNoblium = mixture.GetMoles(Gas.HyperNoblium);
+        if (initialHyperNoblium >= 5.0f && mixture.Temperature > 20f)
+            return ReactionResult.NoReaction;
+        //FtC-Gas-End
         var initialN2 = mixture.GetMoles(Gas.Nitrogen);
         var initialOxy = mixture.GetMoles(Gas.Oxygen);
         var initialTrit = mixture.GetMoles(Gas.Tritium);
