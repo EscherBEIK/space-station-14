@@ -19,7 +19,6 @@
   displayWeight: 70 #FtC-Edit
   startingGear: ChiefEngineerGear
   icon: "JobIconChiefEngineer"
-  requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false
   access:

@@ -20,7 +20,6 @@
   displayWeight: 90 #FtC-Edit
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"
-  requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false
   access:

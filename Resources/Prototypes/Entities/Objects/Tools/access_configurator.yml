@@ -127,6 +127,7 @@
     - BlueShield
     - ServiceAdministrator
     - ChefCook
+    - Wizard
     privilegedIdSlot:
       name: id-card-console-privileged-id
       ejectSound: /Audio/Machines/id_swipe.ogg

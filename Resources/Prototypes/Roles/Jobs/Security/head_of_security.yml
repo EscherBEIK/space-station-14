@@ -19,7 +19,6 @@
   displayWeight: 80 #FtC-Edit
   startingGear: HoSGear
   icon: "JobIconHeadOfSecurity"
-  requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false
   access:
