@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC0 1.0",
-  "copyright": "Made by Hilbnwal for shiroadachi (Discord)",
+  "copyright": "Made by Hilbnwal for shiroadachi (Discord), Adri made by Koldyn for FtC MRP+ server",
   "size": {
     "x": 32,
     "y": 32
@@ -15,6 +15,9 @@
     },
     {
       "name": "shiro"
+    },
+    {
+      "name": "adri"
     }
   ]
 }

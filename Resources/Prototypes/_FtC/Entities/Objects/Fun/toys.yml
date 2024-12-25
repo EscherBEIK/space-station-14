@@ -69,3 +69,29 @@
     soundHit:
       path: /Audio/Animals/cat_meow.ogg
       
+- type: entity
+  parent: BasePlushie
+  id: PlushieAdri
+  name: плюшевый Адри
+  description: Плюшевая игрушка, изображающая выдающегося вульпканина. В его прекрасных бирюзовых глазах отражается свет науки. От игрушки пахнет профессионализмом и любовью, а на аккуратной лапке виднеется золотое кольцо.
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Fun/toys.rsi
+    state: adri
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_FtC/Voice/Vulpkanin/howl.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_FtC/Voice/Vulpkanin/bark.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/_FtC/Voice/Vulpkanin/dog_bark3.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/_FtC/Voice/Vulpkanin/dog_whine.ogg
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      path: /Audio/_FtC/Voice/Vulpkanin/dog_growl1.ogg

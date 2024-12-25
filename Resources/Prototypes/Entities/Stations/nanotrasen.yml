@@ -25,6 +25,7 @@
     - BaseStationSiliconLawCrewsimov
     - BaseStationAllEventsEligible
     - BaseStationNanotrasen
+    - BaseStationStockMarket # FtC-StockTrading
   categories: [ HideSpawnMenu ]
   components:
     - type: Transform

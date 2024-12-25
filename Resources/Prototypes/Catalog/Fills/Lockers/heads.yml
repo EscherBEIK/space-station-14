@@ -18,7 +18,8 @@
     - id: RubberStampDenied
     - id: RubberStampQm
     - id: AstroNavCartridge
-
+    - id: StockTradingCartridge # FtC-StockTrading
+   
 - type: entity
   id: LockerQuarterMasterFilled
   suffix: Filled

@@ -372,6 +372,12 @@
     accentVColor: "#a23e3e"
   - type: Icon
     state: pda-qm
+  - type: CartridgeLoader # FtC-StockTrading
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - StockTradingCartridge # FtC-StockTrading
 
 - type: entity
   parent: BasePDA
@@ -514,7 +520,14 @@
     borderColor: "#7C5D00"
   - type: Icon
     state: pda-captain
-
+  - type: CartridgeLoader
+    preinstalled:
+    - CrewManifestCartridge
+    - NotekeeperCartridge
+    - NewsReaderCartridge
+    - WantedListCartridge
+    - StockTradingCartridge # FtC-StockTrading
+    
 - type: entity
   parent: BasePDA
   id: HoPPDA
@@ -773,6 +786,7 @@
       - WantedListCartridge
       - MedTekCartridge
       - AstroNavCartridge
+      - NanoChatCartridge # FtC-PDAChat
 
 - type: entity
   parent: CentcomPDA
@@ -989,6 +1003,12 @@
     borderColor: "#3f3f74"
   - type: Icon
     state: pda-reporter
+  - type: CartridgeLoader
+    preinstalled:
+    - CrewManifestCartridge
+    - NotekeeperCartridge
+    - NewsReaderCartridge
+    - StockTradingCartridge # FtC-StockTrading
 
 - type: entity
   parent: BasePDA
