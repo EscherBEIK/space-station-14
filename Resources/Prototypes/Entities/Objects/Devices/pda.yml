@@ -786,7 +786,6 @@
       - WantedListCartridge
       - MedTekCartridge
       - AstroNavCartridge
-      - NanoChatCartridge # FtC-PDAChat
 
 - type: entity
   parent: CentcomPDA
