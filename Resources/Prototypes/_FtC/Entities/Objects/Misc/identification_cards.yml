@@ -146,3 +146,87 @@
   - type: Item
   - type: PresetIdCard
     job: CentcommAdmiral
+
+# Charlie Station / Ancient ID Cards
+- type: entity
+  parent: Clothing
+  id: IDCardAncient
+  name: старинная ID карта
+  description: Очень старая ID карта, которой явно не помешает освежиться.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _FtC/Objects/Misc/id_cards_old.rsi
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _FtC/Objects/Misc/id_cards_old.rsi
+  - type: Item
+    size: Small
+    heldPrefix: default
+    storedRotation: -90
+  - type: Access
+  - type: IdCard
+  - type: StationRecordKeyStorage
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    
+- type: entity
+  parent: IDCardAncient
+  id: IDCardAncientScience
+  name: ID карта учёного
+  description: Зажим для удостоверения личности имеет встроенную одну из этих необычных новых магнитных полос. Эта закодирована для Департамента науки.
+  components:
+  - type: Sprite
+    layers:
+    - state: retro_research
+  - type: PresetIdCard
+    job: Scientist
+    
+- type: entity
+  parent: IDCardAncient
+  id: IDCardAncientMedical
+  name: ID карта медработника
+  description: В зажим для удостоверения личности встроена одна из этих необычных новых магнитных полос. Эта закодирована для медицинского отделения.
+  components:
+  - type: Sprite
+    layers:
+    - state: retro_medical
+  - type: PresetIdCard
+    job: MedicalDoctor
+- type: entity
+  parent: IDCardAncient
+  id: IDCardAncientEngineering
+  name: Engineering ID
+  description: A clip on ID Badge, has one of those fancy new magnetic strips built in. This one is encoded for the Engineering Dept.
+  components:
+  - type: Sprite
+    layers:
+    - state: retro_engineering
+  - type: PresetIdCard
+    job: StationEngineer
+    
+- type: entity
+  parent: IDCardAncient
+  id: IDCardAncientSecurity
+  name: ID карта охраны
+  description: Зажим для удостоверения личности имеет встроенную одну из этих необычных новых магнитных полос. Эта закодирована для отдела безопасности.
+  components:
+  - type: Sprite
+    layers:
+    - state: retro_security
+  - type: PresetIdCard
+    job: SecurityOfficer
+    
+- type: entity
+  parent: IDCardAncient
+  id: IDCardAncientNanotrasen
+  name: ID карта Nanotrasen
+  description: В зажим для идентификационного бейджа встроена одна из этих необычных новых магнитных полос. Она предназначена для представителя Nanotrasen.
+  components:
+  - type: Sprite
+    layers:
+    - state: retro_nanotrasen
+  - type: PresetIdCard
+    job: CentralCommandOfficial

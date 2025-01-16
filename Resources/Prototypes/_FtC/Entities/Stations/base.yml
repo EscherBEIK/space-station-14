@@ -76,3 +76,29 @@
     - displayName: stock-trading-company-hrc
       basePrice: 280
       currentPrice: 211
+      
+- type: entity
+  id: BaseStationThetaStation
+  abstract: true
+  components:
+    - type: GridSpawn
+      groups:
+        ruins: !type:GridSpawnGroup
+          minCount: 1
+          maxCount: 1
+          hide: true
+          nameGrid: true
+          stationGrid: false
+          paths:
+          - /Maps/_FtC/Ruins/oldstation.yml
+        vgroid: !type:DungeonSpawnGroup
+          minimumDistance: 300
+          maximumDistance: 350
+          nameDataset: NamesBorer
+          stationGrid: false
+          addComponents:
+          - type: Gravity
+            enabled: true
+            inherent: true
+          protos:
+          - VGRoid

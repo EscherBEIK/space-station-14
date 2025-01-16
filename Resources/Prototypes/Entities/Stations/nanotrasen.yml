@@ -10,6 +10,7 @@
   id: StandardNanotrasenStation
   parent:
     - BaseStation
+    - BaseStationThetaStation #FtC-Theta
     - BaseStationNews
     - BaseStationCargo
     - BaseStationJobsSpawning
