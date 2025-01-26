@@ -34,7 +34,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBalter
-  name: Костюм дворецкого
+  name: костюм дворецкого
   description: Что пожелаете, Ваша Светлость?
   components:
   - type: Sprite
@@ -56,7 +56,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChefCook
-  name: Комбинезон шеф-повара
+  name: комбинезон шеф-повара
   description: Пахнет тиранией. Твёрдо сшит и идеально подходит для своего владельца.
   components:
   - type: Sprite
@@ -85,3 +85,50 @@
       sprite: _FtC/Clothing/Uniforms/Jumpsuit/centcom_admiral.rsi
     - type: Clothing
       sprite: _FtC/Clothing/Uniforms/Jumpsuit/centcom_admiral.rsi
+
+# Theta-uniform
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitRetroEng
+  name: старинный комбинезон инженера
+  description: Ретрофутуристичный кусок ткани, который, на удивление, отлично сохранялся. Кажется, этот предназначался для инженеров.
+  components:
+    - type: Sprite
+      sprite: _FtC/Clothing/Uniforms/Jumpsuit/retroengineer.rsi
+    - type: Clothing
+      sprite: _FtC/Clothing/Uniforms/Jumpsuit/retroengineer.rsi
+      
+      
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitRetroMed
+  name: старинный комбинезон медработника
+  description: Ретрофутуристичный кусок ткани, который, на удивление, отлично сохранялся. Кажется, этот предназначался для работников медицинского отсека.
+  components:
+    - type: Sprite
+      sprite: _FtC/Clothing/Uniforms/Jumpsuit/retromed.rsi
+    - type: Clothing
+      sprite: _FtC/Clothing/Uniforms/Jumpsuit/retromed.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitRetroSci
+  name: старинный комбинезон исследователя
+  description: Ретрофутуристичный кусок ткани, который, на удивление, отлично сохранялся. Кажется, этот предназначался для работников научно-исследовательского отсека.
+  components:
+    - type: Sprite
+      sprite: _FtC/Clothing/Uniforms/Jumpsuit/retrosci.rsi
+    - type: Clothing
+      sprite: _FtC/Clothing/Uniforms/Jumpsuit/retrosci.rsi
+      
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitRetroSec
+  name: старинный комбинезон охранника
+  description: Ретрофутуристичный кусок ткани, который, на удивление, отлично сохранялся. Кажется, этот предназначался для работников отдела безопасности.
+  components:
+    - type: Sprite
+      sprite: _FtC/Clothing/Uniforms/Jumpsuit/retrosec.rsi
+    - type: Clothing
+      sprite: _FtC/Clothing/Uniforms/Jumpsuit/retrosec.rsi
