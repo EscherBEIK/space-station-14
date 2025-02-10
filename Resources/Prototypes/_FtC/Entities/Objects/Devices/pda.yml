@@ -6,7 +6,11 @@
   components:
     - type: Pda
       id: IAAIDCard
-      state: pda-lawyer
+    - type: Appearance
+      appearanceDataInit:
+        enum.PdaVisuals.PdaType:
+          !type:String
+          pda-lawyer
     - type: PdaBorderColor
       borderColor: "#6f6192"
     - type: Icon
@@ -20,45 +24,43 @@
   components:
   - type: Pda
     id: NanoTrasenRepresentativeIDCard
-    state: pda-captain
     penSlot:
       startingItem: Pen
       priority: -1
       whitelist:
         tags:
         - Write
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-captain
   - type: PdaBorderColor
     borderColor: "#7C5D00"
   - type: Icon
     state: pda-captain
-
 # FtC-BlueShield
 
 - type: entity
   parent: BasePDA
   id: BlueShieldPDA
-  name: КПК офицера «синий щит»
-  description: На задней части нацарапано послание о том, что этот ПДА принадлежит Дельте Лайн.
+  name: blue shield officer's PDA
   components:
   - type: Sprite
     sprite: _FtC/Objects/Devices/pda.rsi
-    layers:
-    - map: [ "enum.PdaVisualLayers.Base" ]
-    - state: "light_overlay"
-      map: [ "enum.PdaVisualLayers.Flashlight" ]
-      shader: "unshaded"
-      visible: false
-    - state: "id_overlay"
-      map: [ "enum.PdaVisualLayers.IdLight" ]
-      shader: "unshaded"
-      visible: false
   - type: Pda
     id: BlueShieldIDCard
-    state: pda-blueshield
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-blueshield
   - type: Icon
     sprite: _FtC/Objects/Devices/pda.rsi
     state: pda-blueshield
-
+  - type: PdaBorderColor
+    borderColor: "#008B8B"
+    
 - type: entity
   parent: BasePDA
   id: ServiceAdministratorPDA
@@ -67,24 +69,18 @@
   components:
   - type: Sprite
     sprite: _FtC/Objects/Devices/pda.rsi
-    layers:
-    - map: [ "enum.PdaVisualLayers.Base" ]
-    - state: "light_overlay"
-      map: [ "enum.PdaVisualLayers.Flashlight" ]
-      shader: "unshaded"
-      visible: false
-    - state: "id_overlay"
-      map: [ "enum.PdaVisualLayers.IdLight" ]
-      shader: "unshaded"
-      visible: false
   - type: Pda
     id: ServiceAdministratorIDCard
-    state: pda-serviceadministrator
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-serviceadministrator
   - type: Icon
     sprite: _FtC/Objects/Devices/pda.rsi
     state: pda-serviceadministrator
   - type: PdaBorderColor
-    borderColor: "##800000"
+    borderColor: "#008B8B"
 
 - type: entity
   parent: BasePDA
@@ -94,19 +90,13 @@
   components:
   - type: Sprite
     sprite: _FtC/Objects/Devices/pda.rsi
-    layers:
-    - map: [ "enum.PdaVisualLayers.Base" ]
-    - state: "light_overlay"
-      map: [ "enum.PdaVisualLayers.Flashlight" ]
-      shader: "unshaded"
-      visible: false
-    - state: "id_overlay"
-      map: [ "enum.PdaVisualLayers.IdLight" ]
-      shader: "unshaded"
-      visible: false
   - type: Pda
     id: ChefCookIDCard
-    state: pda-chefcook
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-chefcook
   - type: Icon
     sprite: _FtC/Objects/Devices/pda.rsi
     state: pda-chefcook
@@ -121,16 +111,14 @@
   components:
   - type: Sprite
     sprite: _FtC/Objects/Devices/pda.rsi
-    layers:
-    - map: [ "enum.PdaVisualLayers.Base" ]
-    - state: "light_overlay"
-      map: [ "enum.PdaVisualLayers.Flashlight" ]
-      shader: "unshaded"
-      visible: false
-    - state: "id_overlay"
-      map: [ "enum.PdaVisualLayers.IdLight" ]
-      shader: "unshaded"
-      visible: false
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-centcommoperator
+  - type: Icon
+    sprite: _FtC/Objects/Devices/pda.rsi
+    state: pda-centcommoperator
   - type: Pda
     id: CentcommOperatorIDCard
     state: pda-centcommoperator
@@ -141,10 +129,7 @@
         - Write
   - type: PdaBorderColor
     borderColor: "#008B8B"
-  - type: Icon
-    sprite: _FtC/Objects/Devices/pda.rsi
-    state: pda-centcommoperator
-
+    
 - type: entity
   parent: BaseSecurityPDA
   id: CentcommRepresentativePDA
@@ -153,16 +138,14 @@
   components:
   - type: Sprite
     sprite: _FtC/Objects/Devices/pda.rsi
-    layers:
-    - map: [ "enum.PdaVisualLayers.Base" ]
-    - state: "light_overlay"
-      map: [ "enum.PdaVisualLayers.Flashlight" ]
-      shader: "unshaded"
-      visible: false
-    - state: "id_overlay"
-      map: [ "enum.PdaVisualLayers.IdLight" ]
-      shader: "unshaded"
-      visible: false
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-centcommrepresentative
+  - type: Icon
+    sprite: _FtC/Objects/Devices/pda.rsi
+    state: pda-centcommrepresentative
   - type: Pda
     id: CentcommRepresentativeIDCard
     state: pda-centcommrepresentative
@@ -173,9 +156,6 @@
         - Write
   - type: PdaBorderColor
     borderColor: "#008B8B"
-  - type: Icon
-    sprite: _FtC/Objects/Devices/pda.rsi
-    state: pda-centcommrepresentative
 
 - type: entity
   parent: BaseSecurityPDA
@@ -185,22 +165,18 @@
   components:
   - type: Sprite
     sprite: _FtC/Objects/Devices/pda.rsi
-    layers:
-    - map: [ "enum.PdaVisualLayers.Base" ]
-    - state: "light_overlay"
-      map: [ "enum.PdaVisualLayers.Flashlight" ]
-      shader: "unshaded"
-      visible: false
-    - state: "id_overlay"
-      map: [ "enum.PdaVisualLayers.IdLight" ]
-      shader: "unshaded"
-      visible: false
   - type: Pda
     id: OfficeWorkerIDCard
-    state: pda-officeworker
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-officeworker
   - type: Icon
     sprite: _FtC/Objects/Devices/pda.rsi
     state: pda-officeworker
+  - type: PdaBorderColor
+    borderColor: "#008B8B"
 
 - type: entity
   parent: BaseSecurityPDA
@@ -210,21 +186,21 @@
   components:
   - type: Sprite
     sprite: _FtC/Objects/Devices/pda.rsi
-    layers:
-    - map: [ "enum.PdaVisualLayers.Base" ]
-    - state: "light_overlay"
-      map: [ "enum.PdaVisualLayers.Flashlight" ]
-      shader: "unshaded"
-      visible: false
-    - state: "id_overlay"
-      map: [ "enum.PdaVisualLayers.IdLight" ]
-      shader: "unshaded"
-      visible: false
-  - type: Pda
-    id: CentcommAdmiralIDCard
-    state: pda-centcommadmiral
-  - type: PdaBorderColor
-    borderColor: "#008B8B"
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-centcommadmiral
   - type: Icon
     sprite: _FtC/Objects/Devices/pda.rsi
     state: pda-centcommadmiral
+  - type: Pda
+    id: CentcommAdmiralIDCard
+    state: pda-centcommadmiral
+    penSlot:
+      startingItem: PenCentcom
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#008B8B"

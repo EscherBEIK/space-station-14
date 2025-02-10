@@ -115,7 +115,7 @@
     - state: idcentcommrepresentative
   - type: Item
   - type: PresetIdCard
-    job: Centcommrepresentative
+    job: CentcommRepresentative
     
 - type: entity
   parent: IDCardStandard
