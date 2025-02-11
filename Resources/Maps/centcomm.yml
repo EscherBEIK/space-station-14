@@ -3457,7 +3457,7 @@ entities:
     - type: Transform
       pos: -32.5,0.5
       parent: 1668
-  - uid: 4251
+  - uid: 4251123
     components:
     - type: Transform
       pos: -21.5,-26.5
@@ -3515,7 +3515,7 @@ entities:
       parent: 1668
 - proto: AirlockExternalGlassShuttleArrivals
   entities:
-  - uid: 2823
+  - uid: 282322
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -3816,12 +3816,12 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -3.5,-9.5
       parent: 1668
-  - uid: 1615
+  - uid: 198411
     components:
     - type: Transform
       pos: -14.5,18.5
       parent: 1668
-  - uid: 1616
+  - uid: 198422
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -3959,7 +3959,7 @@ entities:
     - type: Transform
       pos: -9.5,-17.5
       parent: 1668
-  - uid: 2790
+  - uid: 279011
     components:
     - type: Transform
       pos: 8.5,-17.5
@@ -4001,7 +4001,7 @@ entities:
     - type: Transform
       pos: 32.5,-27.5
       parent: 1668
-  - uid: 2886
+  - uid: 2886123
     components:
     - type: Transform
       pos: 16.5,-28.5
@@ -4011,7 +4011,7 @@ entities:
     - type: Transform
       pos: -16.5,-30.5
       parent: 1668
-  - uid: 2925
+  - uid: 2925123
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -4403,7 +4403,7 @@ entities:
     - type: Transform
       pos: 7.5,31.5
       parent: 1668
-  - uid: 2926
+  - uid: 2926123
     components:
     - type: Transform
       pos: 4.5,31.5
@@ -27164,7 +27164,7 @@ entities:
     - type: Transform
       pos: -22.5,-2.5
       parent: 1668
-  - uid: 3902
+  - uid: 3902123
     components:
     - type: Transform
       pos: -20.5,-2.5
@@ -27306,7 +27306,7 @@ entities:
       parent: 1668
 - proto: LockableButtonCentcomm
   entities:
-  - uid: 3149
+  - uid: 3149123
     components:
     - type: Transform
       pos: 14.5,32.5
@@ -33288,7 +33288,7 @@ entities:
       parent: 1668
 - proto: SpawnPointOfficeWorker
   entities:
-  - uid: 5058
+  - uid: 5058123
     components:
     - type: Transform
       pos: -2.5,-0.5
@@ -41930,31 +41930,31 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -3.5,-12.5
       parent: 1668
-  - uid: 2558
+  - uid: 2558123
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 14.5,22.5
       parent: 1668
-  - uid: 2776
+  - uid: 2776213
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 14.5,25.5
       parent: 1668
-  - uid: 2832
+  - uid: 2832123
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 4.5,25.5
       parent: 1668
-  - uid: 2862
+  - uid: 2862123
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 4.5,28.5
       parent: 1668
-  - uid: 2863
+  - uid: 2863123
     components:
     - type: Transform
       rot: 1.5707963267948966 rad

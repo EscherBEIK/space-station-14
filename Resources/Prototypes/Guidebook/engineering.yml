@@ -303,11 +303,8 @@
   - SingularityTeslaEngine
   - TEG
   - RTG
-<<<<<<< HEAD
   - Supermatter
-=======
   - SolarPanels
->>>>>>> upstream/master
 
 - type: guideEntry
   id: AME
@@ -352,7 +349,7 @@
   name: guide-entry-sm
   text: "/ServerInfo/Guidebook/Engineering/Supermatter.xml"
 
--type: guideEntry
+- type: guideEntry
   id: SolarPanels
   name: guide-entry-solarpanels
   text: "/ServerInfo/Guidebook/Engineering/SolarPanels.xml"
