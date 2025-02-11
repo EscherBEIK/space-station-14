@@ -42,6 +42,10 @@
     # healingEndSound:
     #   path: "/Audio/Items/Medical/ointment_end.ogg"
     # _FtC Tweak End
+  - type: GuideHelp
+    guides:
+    - VoltageNetworks
+    - Power
 
 - type: entity
   id: CableHVStack

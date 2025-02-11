@@ -25,10 +25,11 @@ namespace Content.Shared.Preferences
     [Serializable, NetSerializable]
     public sealed partial class HumanoidCharacterProfile : ICharacterProfile
     {
-         private static readonly Regex RestrictedNameRegex = new("[^А-Яа-яA-Za-zёЁ0-9, ,\\-,'.]");
+        private static readonly Regex RestrictedNameRegex = new("[^А-Яа-яA-Za-zёЁ0-9, ,\\-,'.]");
         private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\w)|\b(?<word>\w)(?=\w*$)");
 
         public const int MaxNameLength = 32;
+        public const int MaxLoadoutNameLength = 32;
         public const int MaxDescLength = 1536;
 
         /// <summary>
