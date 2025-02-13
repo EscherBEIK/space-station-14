@@ -1,0 +1,183 @@
+#Коктейли от Кекса/Стычинского
+
+- type: reagent
+  id: SummerShade
+  name: summer-shade-name
+  parent: BaseDrink
+  desc: summer-shade-desc
+  physicalDesc: reagent-physical-desc-refreshing
+  flavor: summershade
+  color: "#FF2B2B"
+  recognizable: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 5
+      - !type:AdjustTemperature
+        conditions:
+        - !type:Temperature
+          min: 290 #дает легкую прохладу
+        amount: -2500
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/summershade.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+
+- type: reagent
+  id: WinterSun
+  name: winter-sun-name
+  parent: SummerShade
+  desc: winter-sun-desc
+  physicalDesc: reagent-physical-desc-milky
+  flavor: wintersun
+  color: "#edccab"
+  recognizable: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustTemperature
+        conditions:
+        - !type:Temperature
+          min: 320 #слегка согревает
+        amount: 2500
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/wintersun.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+
+- type: reagent
+  id: HungoverAngel
+  name: hungover-angel-name
+  parent: SummerShade
+  desc: hungover-angel-desc
+  physicalDesc: reagent-physical-desc-exhilarating
+  flavor: hungoverangel
+  color: "#FBEC5D"
+  recognizable: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Toxin: -1
+      - !type:PopupMessage
+        type: Local
+        visualType: Small
+        messages: [ "medicine-effect-hungover" ]
+        probability: 0.04
+      - !type:GenericStatusEffect
+        key: Drunk
+        time: 2.0
+        type: Remove
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/hungoverangel.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+
+- type: reagent
+  id: CitrusBalance
+  name: citrus-balance-name
+  parent: SummerShade
+  desc: citrus-balance-desc
+  physicalDesc: reagent-physical-desc-citric
+  flavor: citrusbalance
+  color: "#F8D568"
+  recognizable: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/citrucbalance.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+
+- type: reagent
+  id: DobryiDrink
+  name: dobryi-drink-name
+  parent: SummerShade
+  desc: dobryi-drink-desc
+  physicalDesc: reagent-physical-desc-sour
+  flavor: dobtyidrink
+  color: "#955F20"
+  recognizable: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/dobryi.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+
+- type: reagent
+  id: MilkEclipse
+  name: milk-eclipse-name
+  parent: SummerShade
+  desc: milk-eclipse-desc
+  physicalDesc: reagent-physical-desc-refreshing
+  flavor: milkeclipse
+  color: "#D8DEBA"
+  recognizable: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 4
+      - !type:AdjustTemperature
+        conditions:
+        - !type:Temperature
+          min: 290 #дает легкую прохладу
+        amount: -2500
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/milkeclipse.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+
+- type: reagent
+  id: ArcticExplosion
+  name: arctic-explosion-name
+  parent: SummerShade
+  desc: arctic-explosion-desc
+  physicalDesc: reagent-physical-desc-refreshing
+  flavor: arcticexlposion
+  color: "#c5e3e2"
+  recognizable: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+      - !type:AdjustTemperature
+        conditions:
+        - !type:Temperature
+          min: 285 #дает среднюю прохладу
+        amount: -2500
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/arcticexplosion.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false

@@ -1,0 +1,4 @@
+- type: guideEntry
+  id: NewCocktails
+  name: guide-new-cocktails
+  text: "/ServerInfo/_FtC/NewCocktails.xml"

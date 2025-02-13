@@ -1,0 +1,332 @@
+- type: reagent
+  id: AppleLiqueur
+  name: apple-liqueur-name
+  parent: SugarKnight
+  desc: apple-liqueur-desc
+  physicalDesc: reagent-physical-desc-cloudy
+  flavor: appleliqueur
+  color: "#47941b"
+  recognizable: true
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/apple_liqueur_glass.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.05
+
+#Коктейли от Кекса/Стычинского и Кермита
+
+- type: reagent
+  id: SugarKnight
+  name: sugar-knight-name
+  parent: BaseAlcohol
+  desc: sugar-knight-desc
+  physicalDesc: reagent-physical-desc-sugary
+  flavor: sugarknight
+  color: "#D36E70"
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/sugarknight.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.1
+
+- type: reagent
+  id: GrapeLady
+  name: grape-lady-name
+  parent: SugarKnight
+  desc: grape-lady-desc
+  physicalDesc: reagent-physical-desc-dark-red
+  flavor: grapelady
+  color: "#8C4852"
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/grapelady.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.1
+
+- type: reagent
+  id: SaturdayBaron
+  name: saturday-baron-name
+  parent: SugarKnight
+  desc: saturday-baron-desc
+  physicalDesc: reagent-physical-desc-tart
+  flavor: saturdaybaron
+  color: "#EFA94A"
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/saturdaybaron.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.15
+
+- type: reagent
+  id: ArcticLatte
+  name: artic-latte-name
+  parent: SugarKnight
+  desc: artic-latte-desc
+  physicalDesc: reagent-physical-desc-refreshing
+  flavor: arcticlatte
+  color: "#916631"
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/arcticlatte.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 4
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.1
+      - !type:AdjustTemperature
+        conditions:
+        - !type:Temperature
+          min: 290 #дает легкую прохладу
+        amount: -2500
+
+- type: reagent
+  id: SpecialTeaOolong
+  name: special-teaoolong-name
+  parent: SugarKnight
+  desc: special-teaoolong-desc
+  physicalDesc: reagent-physical-desc-overpowering
+  flavor: oolongtea
+  color: "#8c492a"
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/teaoolong.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.3
+
+- type: reagent
+  id: AzureBlue
+  name: azure-blue-name
+  parent: SugarKnight
+  desc: azure-blue-desc
+  physicalDesc: reagent-physical-desc-tropical
+  flavor: azureblue
+  color: "#6498e3"
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/azureblue.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.15
+
+- type: reagent
+  id: PenetrationDrink
+  name: penetration-drink-name
+  parent: SugarKnight
+  desc: penetration-drink-desc
+  physicalDesc: reagent-physical-desc-overpowering
+  flavor: penetrationdrink
+  color: "#6ddb6b"
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/penetration.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.15
+
+- type: reagent
+  id: EclipsedEclispe
+  name: eclipsed-eclipse-name
+  parent: SugarKnight
+  desc: eclipsed-eclipse-desc
+  physicalDesc: reagent-physical-desc-overpowering
+  flavor: eclipsedeclipse
+  color: "#592506"
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/eclipsedeclipse.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.6
+
+- type: reagent
+  id: SpaceBush
+  name: space-bush-name
+  parent: SugarKnight
+  desc: space-bush-desc
+  physicalDesc: reagent-physical-desc-fizzy
+  flavor: spacebush
+  color: "#85de8e"
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/spacebush.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.15
+
+- type: reagent
+  id: BusinessConversation
+  name: business-conversation-name
+  parent: SugarKnight
+  desc: business-conversation-desc
+  physicalDesc: reagent-physical-desc-overpowering
+  flavor: businessconversation
+  color: "#a8140a"
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/buisinessconservation.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.2
+      - !type:AdjustReagent
+        reagent: Bicaridine
+        amount: 0.2
+
+- type: reagent
+  id: AppleMartini
+  name: apple-martini-name
+  parent: SugarKnight
+  desc: apple-martini-desc
+  physicalDesc: reagent-physical-desc-strong-smelling
+  flavor: applemartini
+  color: "#664300"
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/applemartini.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.15
+
+- type: reagent
+  id: BacardiApple
+  name: bacardi-apple-name
+  parent: SugarKnight
+  desc: bacardi-apple-desc
+  physicalDesc: reagent-physical-desc-refreshing
+  flavor: bacardiapple
+  color: "#d4f2a7"
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/bacardiapple.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.15
+
+- type: reagent
+  id: ElderGuards
+  name: elder-guards-name
+  parent: SugarKnight
+  desc: elder-guards-desc
+  physicalDesc: reagent-physical-desc-cloudy
+  flavor: elderguards
+  color: "#e86717"
+  metamorphicSprite:
+    sprite: _FtC/Objects/Consumable/Drinks/elderguards.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 6
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.2

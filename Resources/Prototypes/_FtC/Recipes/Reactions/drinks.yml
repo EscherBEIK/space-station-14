@@ -1,0 +1,272 @@
+- type: reaction
+  id: SummerShade
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    JuiceWatermelon:
+      amount: 3
+    Ice:
+      amount: 1
+    JuiceLime:
+      amount: 2
+  products:
+    SummerShade: 6
+- type: reaction
+  id: WinterSun
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    CafeLatte: 
+      amount: 3
+    Cream:
+      amount: 2
+  products:
+    WinterSun: 5
+- type: reaction
+  id: HungoverAngel
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    SodaWater:
+      amount: 3
+    Ice:
+      amount: 1
+    JuiceLemon:
+      amount: 2
+  products:
+    HungoverAngel: 6
+- type: reaction
+  id: CitrusBalance
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    JuiceLime:
+      amount: 2
+    JuiceOrange:
+      amount: 2
+    Ice:
+      amount: 1
+  products:
+    CitrusBalance: 5
+- type: reaction
+  id: DobryiDrink
+  reactants:
+    JuiceOrange:
+      amount: 1
+    LemonLime:
+      amount: 1
+    Cola:
+      amount: 1
+  products:
+    DobryiDrink: 3
+- type: reaction
+  id: MilkEclipse
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    IceCream:
+      amount: 2
+    Tea:
+      amount: 2
+    Milk:
+      amount: 1
+  products:
+    MilkEclipse: 5
+- type: reaction
+  id: ArcticExplosion
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    IceCream:
+      amount: 3
+    SodaWater:
+      amount: 2
+    Ice:
+      amount: 1
+  products:
+    ArcticExplosion: 6
+#Алкогольные коктейли от Кекса/Стычинского и Кермита
+- type: reaction
+  id: SugarKnight
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    Wine:
+      amount: 4
+    Sugar:
+      amount: 1
+    Cream:
+      amount: 1
+  products:
+    SugarKnight: 6
+- type: reaction
+  id: GrapeLady
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    Wine:
+      amount: 3
+    Vermouth:
+      amount: 2
+    Cream:
+      amount: 1
+  products:
+    GrapeLady: 6
+- type: reaction
+  id: SaturdayBaron
+  requiredMixerCategories:
+  - Shake
+  reactants:
+    Ice:
+      amount: 1
+    Rum:
+      amount: 3
+    JuiceLemon:
+      amount: 1
+    Sugar:
+      amount: 1
+  products:
+    SaturdayBaron: 6
+- type: reaction
+  id: ArcticLatte
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    CoffeeLiqueur:
+      amount: 1
+    IcedCoffee:
+      amount: 4
+    Cream:
+      amount: 1
+  products:
+    ArcticLatte: 6
+- type: reaction
+  id: SpecialTeaOolong
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    Sugar:
+      amount: 1
+    Whiskey:
+      amount: 2
+    Vodka:
+      amount: 7
+  products:
+    SpecialTeaOolong: 10
+- type: reaction
+  id: AzureBlue
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    BlueCuracao:
+      amount: 2
+    Ice:
+      amount: 1
+    Vodka:
+      amount: 2
+    SodaWater:
+      amount: 1
+  products:
+    AzureBlue: 6
+- type: reaction
+  id: PenetrationDrink
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    Wine:
+      amount: 3
+    AppleLiqueur:
+      amount: 1
+    Sugar:
+      amount: 1
+    JuiceLime:
+      amount: 3
+    Ice:
+      amount: 1
+    SodaWater:
+      amount: 1
+  products:
+    PenetrationDrink: 10
+- type: reaction
+  id: EclipsedEclispe
+  requiredMixerCategories:
+  - Shake
+  reactants:
+    GargleBlaster:
+      amount: 1
+    Moonshine:
+      amount: 1
+  products:
+    EclipsedEclispe: 2
+- type: reaction
+  id: SpaceBush
+  requiredMixerCategories:
+  - Shake
+  reactants:
+    SpaceUp:
+      amount: 1
+    SpaceMountainWind:
+      amount: 1
+    Mojito:
+      amount: 4
+  products:
+    SpaceBush: 6
+- type: reaction
+  id: BusinessConversation
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    CubaLibre:
+      amount: 3
+    Vodka:
+      amount: 1
+    Gin:
+      amount: 1
+    Bicaridine:
+      amount: 1
+  products:
+    BusinessConversation: 6
+- type: reaction
+  id: AppleMartini
+  reactants:
+    AppleLiqueur:
+      amount: 3
+    Vermouth:
+      amount: 2
+    Gin:
+      amount: 1
+  products:
+    AppleMartini: 6
+- type: reaction
+  id: BacardiApple
+  reactants:
+    AppleLiqueur:
+      amount: 1
+    Rum:
+      amount: 1
+    Ice:
+      amount: 1
+  products:
+    BacardiApple: 3
+#охохо, сейчас такое будет.
+- type: reaction
+  id: ElderGuards
+  reactants:
+    Vodka:
+      amount: 2
+    CitrusBalance:
+      amount: 2
+    Rum:
+      amount: 1
+    Grenadine:
+      amount: 1
+    Vinegar:
+      amount: 1
+    Wine:
+      amount: 1
+    Gin:
+      amount: 1
+    Whiskey:
+      amount: 1
+  products:
+    ElderGuards: 10 #polar bear heater. типо напиток из фильма, который по факту был придуман как шутка.

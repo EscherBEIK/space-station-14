@@ -246,6 +246,7 @@
       - id: DrinkVodkaBottleFull
       - id: DrinkWhiskeyBottleFull
       - id: DrinkWineBottleFull
+      - id: DrinkAppleLiqueurBottleFull #FtC-Bar
 
 - type: entity
   id: CrateServiceBox

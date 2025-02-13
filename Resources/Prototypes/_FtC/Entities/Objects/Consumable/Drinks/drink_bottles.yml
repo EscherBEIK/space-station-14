@@ -1,0 +1,19 @@
+- type: entity
+  parent: DrinkBottleGlassBaseFull
+  id: DrinkAppleLiqueurBottleFull
+  name: apple liquer
+  description: fruit, dessert alcoholic drink.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 100
+        reagents:
+        - ReagentId: AppleLiqueur
+          Quantity: 100
+  - type: Drink
+  - type: Sprite
+    sprite: _FtC/Objects/Consumable/Drinks/apple_liqueur_bottle.rsi
+    state: icon
+  - type: Label
+    currentLabel: apple-liqueur-name
