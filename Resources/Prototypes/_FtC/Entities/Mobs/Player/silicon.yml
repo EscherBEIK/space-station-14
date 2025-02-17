@@ -1,0 +1,11 @@
+- type: entity
+  id: AsimothCircuitBoard
+  parent: BaseElectronics
+  name: машинная плата (Азимов)
+  description: Электронная плата, содержащая набор законов Азимова.
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/module.rsi
+    state: std_mod
+  - type: SiliconLawProvider
+    laws: AsimothLawset
